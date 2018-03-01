@@ -686,6 +686,16 @@ $(document).ready(function() {
 });
 //popup
 
+function switch1(x) {
+        $('#welcome1').css('content', 'Welcome to');
+		$('#welcome2').css('content', 'Xīchéng Hub');
+      }
+	  
+	  function switch2(x) {
+        $('#welcome1').css('content', '歡迎來到');
+		$('#welcome2').css('content', '西城樞紐');
+      }
+	  
     $(function() {
       $('.majorpoints').click(function() {
         $(this).find('.hiders').toggle();
@@ -696,15 +706,7 @@ $(document).ready(function() {
         $("#tagline").html(textToShow[Math.floor(Math.random() * textToShow.length)]);
       });
 
-      function switch1(x) {
-        $('#welcome1').css('content', 'Welcome to');
-		$('#welcome2').css('content', 'Xīchéng Hub');
-      }
-	  
-	  function switch2(x) {
-        $('#welcome1').css('content', '歡迎來到');
-		$('#welcome2').css('content', '西城樞紐');
-      }
+      
       // End
     });
 
