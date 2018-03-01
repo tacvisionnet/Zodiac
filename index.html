@@ -11,7 +11,7 @@
  <div style="position: relative; top: 86px; min-height: 30px; padding: 5pt;"><img style="width: 100%;" src="banner.png">
  <table style="position: absolute; top: 74px; width: 100%; font-size: 42pt; color: #8fde39; line-height: 10pt; font-family: Simsun; text-shadow: rgba(0, 0, 0, .4) 0 1px 5px; text-decoration: none;">
 	  <tr>
-	  <td onmouseover="switch1(this)" onmouseout="switch2(this)" align="center" style="padding-right:45px;"><span id="welcome1">歡迎來到</span> &ensp; <span id="welcome2">西城樞紐</span>
+	  <td id="switch" onmouseover="switch1(this)" onmouseout="switch2(this)" align="center" style="padding-right:45px;"><span id="welcome1">歡迎來到</span> &ensp; <span id="welcome2">西城樞紐</span>
 	  </td>
 	  </tr>
 	  </table>	  
@@ -689,13 +689,13 @@ $(document).ready(function() {
       function switch1(x) {
         $('#welcome1').text('Welcome to');
 		$('#welcome2').text('Xīchéng Hub');
-		$(this).css('padding-right: 15px;');
+		$("#switch").css('padding-right: 15px;');
       }
 	  
 	  function switch2(x) {
         $('#welcome1').text('歡迎來到');
 		$('#welcome2').text('西城樞紐');
-		$(this).css('padding-right: 45px;');
+		$("#switch").css('padding-right: 45px;');
       }
 	  
     $(function() {
