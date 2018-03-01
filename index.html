@@ -688,11 +688,11 @@ $(document).ready(function() {
 
 $(document).ready(function(){
     $("#switch").hover(function(){
-        $('#welcome1').replaceWith('Welcome to');
-		$('#welcome2').replaceWith('Xīchéng Hub');
+        $('#welcome1').css('content', 'Welcome to');
+		$('#welcome2').css('content', 'Xīchéng Hub');
         }, function(){
-        $('#welcome1').replaceWith('歡迎來到');
-		$('#welcome2').replaceWith('西城樞紐');
+        $('#welcome1').css('content', '歡迎來到');
+		$('#welcome2').css('content', '西城樞紐');
     });
 });
 
