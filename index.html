@@ -687,13 +687,13 @@ $(document).ready(function() {
 //popup
 
 function switch1(x) {
-        $('#welcome1').css('content', 'Welcome to');
-		$('#welcome2').css('content', 'Xīchéng Hub');
+        $('#welcome1').replaceWith('Welcome to');
+		$('#welcome2').replaceWith('Xīchéng Hub');
       }
 	  
 	  function switch2(x) {
-        $('#welcome1').css('content', '歡迎來到');
-		$('#welcome2').css('content', '西城樞紐');
+        $('#welcome1').replaceWith('歡迎來到');
+		$('#welcome2').replaceWith('西城樞紐');
       }
 	  
     $(function() {
