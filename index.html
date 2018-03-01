@@ -9,9 +9,9 @@
   
   
  <div style="position: relative; top: 86px; min-height: 30px; padding: 5pt;"><img style="width: 100%;" src="banner.png">
- <table onmouseover="switch1(this)" onmouseout="switch2(this)" style="position: absolute; top: 74px; width: 100%; font-size: 42pt; color: #8fde39; line-height: 10pt; font-family: Simsun; text-shadow: rgba(0, 0, 0, .4) 0 1px 5px; text-decoration: none;">
+ <table style="position: absolute; top: 74px; width: 100%; font-size: 42pt; color: #8fde39; line-height: 10pt; font-family: Simsun; text-shadow: rgba(0, 0, 0, .4) 0 1px 5px; text-decoration: none;">
 	  <tr>
-	  <td align="center" style="padding-right:15px;"><span id="welcome1">歡迎來到</span> &ensp; <span id="welcome2">西城樞紐</span>
+	  <td onmouseover="switch1(this)" onmouseout="switch2(this)" align="center" style="padding-right:15px;"><span id="welcome1">歡迎來到</span> &ensp; <span id="welcome2">西城樞紐</span>
 	  </td>
 	  </tr>
 	  </table>	  
@@ -686,7 +686,7 @@ $(document).ready(function() {
 });
 //popup
 
-function switch1(x) {
+      function switch1(x) {
         $('#welcome1').replaceWith('Welcome to');
 		$('#welcome2').replaceWith('Xīchéng Hub');
       }
