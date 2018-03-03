@@ -18,14 +18,5 @@
 <!-- Popup - End -->
 
 <script>
-//logo
-$(document).ready(function() {
-    $('#logoclose').click(function(e) {
-    $('#logo1').delay(250).fadeOut();
-    });
-    $('#companylogo').click(function(e) {
-    $('#logo1').delay(500).fadeIn();
-    });
-});
-//logo
+
 </script>
