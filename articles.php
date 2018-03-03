@@ -50,7 +50,6 @@ $(document).ready(function() {
 		  $('#login').delay(50).fadeOut();
 		  $('#fail').delay(65).fadeIn();
 		  $('#fail').delay(105).fadeOut();
-		  $('#login').delay(110).fadeIn();
 	  }
     }
 </script>
