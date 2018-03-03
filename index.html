@@ -132,6 +132,17 @@ $("#changelog").click(function() {
 		$("#switch").css('padding-right', '45px');
       }
 	  
+	  //logo
+$(document).ready(function() {
+    $('#logoclose').click(function(e) {
+    $('#logo1').delay(250).fadeOut();
+    });
+    $('#companylogo').click(function(e) {
+    $('#logo1').delay(500).fadeIn();
+    });
+});
+//logo
+	  
     $(function() {
       $('.majorpoints').click(function() {
         $(this).find('.hiders').toggle();
@@ -142,9 +153,10 @@ $("#changelog").click(function() {
         $("#tagline").html(textToShow[Math.floor(Math.random() * textToShow.length)]);
       });
 
-	  $(function(){
+	  
+
       $("#logo1").load("articles.php"); 
-    });
+
       
       // End
     });
