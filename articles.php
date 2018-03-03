@@ -22,7 +22,14 @@
 <!-- Popup - End -->
 
 <script>
-
+$(document).ready(function() {
+    $('#logoclose').click(function(e) {
+    $('#logo1').delay(250).fadeOut();
+    });
+    $('#logo').click(function(e) {
+    $('#logo1').delay(250).fadeIn();
+    });
+});
 </script>
 
 <style>
