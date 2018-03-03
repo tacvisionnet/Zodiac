@@ -1,7 +1,7 @@
 <!-- Popup -->
 <div class="login">
     <h2 align="center">授权证书</h2>
-	  <table>
+	  <table style="margin: auto;">
 	  <tr>
 	  <td>
 	  密码 : 
@@ -10,10 +10,13 @@
 	  </td>
 	  </tr>
 	  <tr>
-	  <td align="center" colspan="2" id="logosend" style="background: white; cursor: pointer;">发送</td>
+	  <td></br></td>
 	  </tr>
 	  <tr>
-	  <td align="center" colspan="2" id="logoclose" style="background: white; cursor: pointer;">取消</td>
+	  <td align="center" colspan="2" id="logosend"><span style="border: 1px solid silver; cursor: pointer;padding: 2px 10px;"> 发送 </span></td>
+	  </tr>
+	  <tr>
+	  <td align="center" colspan="2" id="logoclose"><span style="border: 1px solid silver; cursor: pointer;padding: 2px 10px;"> 取消 </span></td>
 	  </tr>
 	  </table>
 </div>
