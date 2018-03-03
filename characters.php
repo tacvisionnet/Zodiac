@@ -6,7 +6,7 @@
 </tbody></table>
 
 <div hidden id="chpcs1">
-<h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 48pt; text-align: center;">PCS</h1>			
+<h1 style="font-family: 'Libre Barcode 39 Extended', cursive; font-size: 92px; text-align: center; line-height: 12pt;">PCS</h1>			
 			<div>
               <fieldset style="border: none;" class="majorpoints">
                 <legend class="majorpointslegend"><b style="background: #d0d0d0; font-size: 14pt; text-shadow: rgba(255, 255, 255, .8) 0 1px 2px;">&nbsp; 鼷 &nbsp;</b></legend>
@@ -24,7 +24,7 @@
 </div>
 
 <div hidden id="chnpcs1">	
-<h1 style="font-family: Libre Barcode 39 Extended; font-size: 48pt; text-align: center;">NPCS</h1>		
+<h1 style="font-family: 'Libre Barcode 39 Extended', cursive; font-size: 92px; text-align: center; line-height: 12pt;">NPCS</h1>		
 			<div>
               <fieldset style="border: none;" class="majorpoints">
                 <legend class="majorpointslegend"><b style="background: #d0d0d0; font-size: 14pt; text-shadow: rgba(255, 255, 255, .8) 0 1px 2px;">&nbsp; 鼷 &nbsp;</b></legend>
