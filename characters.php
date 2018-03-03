@@ -1,4 +1,4 @@
-<div align="left" hidden style="background-color: rgba(222, 222, 222, 1); color: #1b8590; border-radius: 5px; padding: 5px; position: relative; font-family: Georgia; font-size: 9pt; width: 450px; max-height: 500px; z-index: 1; border: solid white 1px; box-shadow: rgba(0, 0, 0, .8) 0 2px 8px; margin: auto; font-size: 14pt; overflow-y: auto; top: 150px;">
+<div align="left" style="background-color: rgba(222, 222, 222, 1); color: #1b8590; border-radius: 5px; padding: 5px; position: relative; font-family: Georgia; font-size: 9pt; width: 450px; max-height: 500px; z-index: 1; border: solid white 1px; box-shadow: rgba(0, 0, 0, .8) 0 2px 8px; margin: auto; font-size: 14pt; overflow-y: auto; top: 150px;">
 <table align="right" style="font-size: 10pt;">
               <tr>
                 <td>Color Key
