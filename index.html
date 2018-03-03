@@ -31,22 +31,9 @@
 <!-- Menu - End -->
 
 
-<div style="display: none; position: relative; top: 100px; margin: auto; width: 350px; z-index: 3; background: #ccc; border: 1px solid #f3f3f3; border-radius: 5px;" id="popup1">
-    <h2 align="center">NOTE:</h2>
-	  <table>
-	  <tr>
-	  <td align="center" colspan="2">
-	  When referring customers to a PC tech or 3rd party support, please do not Google search a support number. This is for liability reasons.
-	  <br/>Merely inform the customer that they will need to reach out to 3rd party support.
-	  <br/>(Apple, Windows, local PC techs, etc.)
-	  </td>
-	  </tr>
-	  <tr>
-	  <td align="center" colspan="2" id="popup-close" style="background: white; cursor: pointer;">Accept</td>
-	  </tr>
-	  </table>
+<div style="display: none;" id="logo1">
+<?php include "articles.php" ?>
 </div>
-<!-- Popup - End -->
     
   <!-- Changelog -->
 <div id="changelog1" align="left" hidden style="background-color: rgba(222, 222, 222, 1); color: #1b8590; border-radius: 5px; padding: 5px; position: relative; font-family: Georgia; font-size: 9pt; width: 450px; max-height: 500px; z-index: 1; border: solid white 1px; box-shadow: rgba(0, 0, 0, .8) 0 2px 8px; margin: auto; font-size: 14pt; overflow-y: auto; top: 150px;">
@@ -132,20 +119,6 @@ $("#changelog").click(function() {
   $("#changelog1").toggle("hidden", false);
 });
 
-//popup
-$(document).ready(function() {
-    if(localStorage.getItem('pop5') != 'shown'){
-        $("#popup1").delay(500).fadeIn();
-        localStorage.setItem('pop5','shown')
-    }
-    $('#popup-close').click(function(e) {
-    $('#popup1').fadeOut();
-    });
-    $('#popup').click(function(e) {
-    $('#popup1').fadeIn();
-    });
-});
-//popup
 
       function switch1(x) {
         $('#welcome1').text('Welcome to');
@@ -281,10 +254,10 @@ $(document).ready(function() {
 	top: 0px; 
 	border-radius: 5px; 
 	width: 110px; 
-	box-shadow: rgba(0, 0, 0, .5) 0 2px 8px; 
+	box-shadow: rgba(0, 0, 0, .2) 0 2px 8px;
 	font-family: Courier new; 
 	font-size: 12pt; 
-	background-color: rgba(255, 255, 255, 0.5); 
+	background-color: linear-gradient(to bottom, #717171 0%, #ff99cc00 100%);
 	height: 25px; 
 	line-height: 18pt; 
 	z-index: 3; 
@@ -293,7 +266,7 @@ $(document).ready(function() {
 	margin: auto;
 	}
 	
-	.switch {
+	#switch {
 	cursor: default;
 	}
 </style>
