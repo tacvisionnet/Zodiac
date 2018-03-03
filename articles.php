@@ -1,22 +1,21 @@
 <!-- Popup -->
 <div class="login">
     <h2 align="center">授权证书</h2>
-	  <table style="margin: auto;">
+	  <table style="margin: auto;padding: 20px;">
 	  <tr>
-	  <td>
+	  <td colspan="2">
 	  密码 : 
 	  </td>
-	  <td><input id="logopass" type="password">
+	  <td colspan="2"><input id="logopass" type="password">
 	  </td>
 	  </tr>
 	  <tr>
-	  <td></br></td>
+	  <td><br></td>
 	  </tr>
-	  <tr>
-	  <td align="center" colspan="2" id="logosend"><span style="border: 1px solid silver; cursor: pointer;padding: 2px 10px;"> 发送 </span></td>
-	  </tr>
-	  <tr>
-	  <td align="center" colspan="2" id="logoclose"><span style="border: 1px solid silver; cursor: pointer;padding: 2px 10px;"> 取消 </span></td>
+	  <tr style="text-align: center;">
+	  <td colspan="2"></td>
+	  <td id="logosend"><span style="border: 1px solid silver; cursor: pointer;padding: 2px 10px;"> 发送 </span></td>
+	  <td id="logoclose"><span style="border: 1px solid silver; cursor: pointer;padding: 2px 10px;"> 取消 </span></td>
 	  </tr>
 	  </table>
 </div>
