@@ -28,7 +28,7 @@
 </div>
 
 <div hidden id="fail">
-    <h2 id="fail2" align="center" style="font-size: 24pt; color: red;">
+    <h2 id="fail2" align="center">
 	拒绝访问
 	</h2>
 </div>
@@ -49,6 +49,8 @@ $(document).ready(function() {
       if ($("#logopass").val() != "one") {
 		  $('#login').delay(50).fadeOut();
 		  $('#fail').delay(55).fadeIn();
+		  $('#fail').delay(65).fadeOut();
+		  $('#login').delay(70).fadeIn();
 	  }
     }
 </script>
@@ -67,7 +69,9 @@ color: #8fde39;
 }
 
 #fail2 {
-	animation: blinker 1s linear infinite;
+	font-size: 32pt;
+	color: #ff4444;
+	animation: blinker 1.5s cubic-bezier(0, 0, 1, -0.51) infinite;
 }
 @keyframes blinker {  
   50% { opacity: 0; }
