@@ -48,7 +48,7 @@ $(document).ready(function() {
     document.getElementById('logosend').onclick = function() {
       if ($("#logopass").val() != "one") {
 		  $('#login').delay(50).fadeOut();
-		  $('#fail').delay(55).fadeIn();
+		  $('#fail').delay(65).fadeIn();
 		  $('#fail').delay(105).fadeOut();
 		  $('#login').delay(110).fadeIn();
 	  }
