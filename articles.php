@@ -28,7 +28,7 @@
 </div>
 
 <div hidden id="fail">
-    <h2 align="center" style="font-size: 24pt; color: red;">
+    <h2 id="fail2" align="center" style="font-size: 24pt; color: red;">
 	拒绝访问
 	</h2>
 </div>
@@ -66,7 +66,7 @@ border-radius: 5px;
 color: #8fde39;
 }
 
-#fail {
+#fail2 {
 	animation: blinker 1s linear infinite;
 }
 @keyframes blinker {  
