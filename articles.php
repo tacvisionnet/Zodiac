@@ -28,7 +28,7 @@
 	</h2>
 	<table style="margin: auto; padding: 0px 0px 20px 0px; width: 100%;">
 	  <tr style="text-align: center; width: 100%;">
-	  <td align="center" id="failclose"><span style="border: 1px solid silver; cursor: pointer;padding: 2px 10px;"> 取消 </span></td>
+	  <td align="center" id="failclose"><span style="border: 1px solid silver; cursor: pointer;padding: 2px 10px; color: #ff4444;"> 取消 </span></td>
 	  </tr>
 	  </table>
 </div>
@@ -47,15 +47,15 @@ $(document).ready(function() {
 
     document.getElementById('logosend').onclick = function() {
       if ($("#logopass").val() != "one") {
-		  $('#login').delay(50).fadeOut();
-		  $('#fail').delay(75).fadeIn();
+		  $('#login').prop('hidden', 'true');
+		  $('#fail').delay(50).fadeIn();
 	  }
     }
 	
 	document.getElementById('failclose').onclick = function() {
       if ($("#logopass").val() != "one") {
-		  $('#fail').delay(50).fadeOut();
-		  $('#login').delay(75).fadeIn();
+		  $('#fail').prop('hidden', 'true');
+		  $('#login').delay(50).fadeIn();
 	  }
     }
 </script>
