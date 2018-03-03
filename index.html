@@ -32,7 +32,6 @@
 
 
 <div style="display: none;" id="logo1">
-<?php include "articles.php" ?>
 </div>
     
   <!-- Changelog -->
@@ -120,6 +119,7 @@ $("#changelog").click(function() {
 });
 
 
+
       function switch1(x) {
         $('#welcome1').text('Welcome to');
 		$('#welcome2').text('Xīchéng Hub');
@@ -142,6 +142,9 @@ $("#changelog").click(function() {
         $("#tagline").html(textToShow[Math.floor(Math.random() * textToShow.length)]);
       });
 
+	  $(function(){
+      $("#logo1").load("articles.html"); 
+    });
       
       // End
     });
