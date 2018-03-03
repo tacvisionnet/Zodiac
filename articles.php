@@ -49,7 +49,8 @@ $(document).ready(function() {
       if ($("#logopass").val() != "one") {
 		  $('#login').delay(50).fadeOut();
 		  $('#fail').delay(65).fadeIn();
-		  $('#fail').delay(105).fadeOut();
+		  $('#fail').delay(1005).fadeOut();
+		  $('#login').delay(1405).fadeIn();
 	  }
     }
 </script>
