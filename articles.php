@@ -53,7 +53,7 @@ $(document).ready(function() {
     }
 	
 	document.getElementById('failclose').onclick = function() {
-		  $('#fail').prop('hidden', 'true');
+		  $('#fail').css('display', 'none');
 		  $('#login').delay(50).fadeIn();
     }
 </script>
