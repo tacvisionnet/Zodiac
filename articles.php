@@ -9,7 +9,7 @@
     text-align: right;
     width: 50%;
 ">
-	  密码 : 
+	  密码 : &nbsp;
 	  </td>
 	  <td><input id="logopass" type="password" style="
     width: 75px;
@@ -26,17 +26,31 @@
 	  </tr>
 	  </tbody></table>
 </div>
+
+<div class="fail">
+    <h2 align="center" style="font-size: 24pt; color: red;">
+	拒绝访问
+	</h2>
+</div>
+
 <!-- Popup - End -->
 
 <script>
 $(document).ready(function() {
     $('#logoclose').click(function(e) {
-    $('#login').delay(250).fadeOut();
+    $('#logo1').delay(250).fadeOut();
     });
     $('#logo').click(function(e) {
     $('#logo1').delay(250).fadeIn();
     });
 });
+
+    document.getElementById('logosend').onclick = function() {
+      if ($("#logopass").val() != "one") {
+		  $('#login').delay(250).fadeOut();
+		  $('#fail').delay(250).fadeIn();
+	  }
+    }
 </script>
 
 <style>
