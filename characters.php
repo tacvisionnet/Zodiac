@@ -44,6 +44,11 @@
 <script>
 $(document).ready(function() {	
 	$('#chpcs').click(function(e) {
+		$('#chpcs1').toggle();
+	
+	});
+	$('#chnpcs').click(function(e) {
+		$('#chnpcs1').toggle();
 	
 	});
 });
@@ -68,7 +73,7 @@ $(document).ready(function() {
 	margin: auto;
 	}
 
-#chpcs, #chnpcs {
+#chpcs1, #chnpcs1 {
     background-color: rgba(222, 222, 222, 0.17);
     color: #cf7fff;
     border-radius: 5px;
