@@ -53,10 +53,8 @@ $(document).ready(function() {
     }
 	
 	document.getElementById('failclose').onclick = function() {
-      if ($("#logopass").val() != "one") {
 		  $('#fail').prop('hidden', 'true');
 		  $('#login').delay(50).fadeIn();
-	  }
     }
 </script>
 
