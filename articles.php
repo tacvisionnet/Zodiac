@@ -28,10 +28,12 @@
 	</h2>
 	<table style="margin: auto; padding: 0px 0px 20px 0px; width: 100%;">
 	  <tr style="text-align: center; width: 100%;">
-	  <td align="center" id="failclose"><span style="border: 1px solid silver; cursor: pointer;padding: 2px 10px; color: #ff4444;"> 取消 </span></td>
+	  <td align="center" id="failclose"><span style="border: 1px solid silver; cursor: pointer;padding: 2px 10px; color: #ff4444;"> 重试 </span></td>
 	  </tr>
 	  </table>
 </div>
+
+
 
 <!-- Popup - End -->
 
@@ -47,7 +49,7 @@ $(document).ready(function() {
 
     document.getElementById('logosend').onclick = function() {
       if ($("#logopass").val() != "one") {
-		  $('#login').prop('hidden', 'true');
+		  $('#login').css('display', 'none');
 		  $('#fail').delay(50).fadeIn();
 	  }
     }
@@ -61,7 +63,7 @@ $(document).ready(function() {
 <style>
 #login, #fail {
 position: relative;
-top: 20px;
+top: 275px;
 margin: auto;
 width: 350px;
 z-index: 3;
