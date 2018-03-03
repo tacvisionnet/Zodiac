@@ -47,8 +47,8 @@ $(document).ready(function() {
 
     document.getElementById('logosend').onclick = function() {
       if ($("#logopass").val() != "one") {
-		  $('#login').delay(250).fadeOut();
-		  $('#fail').delay(250).fadeIn();
+		  $('#login').delay(50).fadeOut();
+		  $('#fail').delay(55).fadeIn();
 	  }
     }
 </script>
@@ -64,5 +64,12 @@ background: #cccccc6b;
 border: 1px solid #f3f3f3;
 border-radius: 5px;
 color: #8fde39;
+}
+
+#fail {
+	animation: blinker 1s linear infinite;
+}
+@keyframes blinker {  
+  50% { opacity: 0; }
 }
 </style>
