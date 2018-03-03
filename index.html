@@ -22,10 +22,10 @@
  <!-- Menu -->
  <table style="margin: auto; padding-right: 30px;">
  <tr>
- <td id="popup" class="menu" style="left: -100px;"><b>Sessions</b></td>
- <td id="outages" class="menu" style="left: -50px;"><b>Characters</b></td>
- <td id="contact" class="menu" style="right: -50px;"><b>Items</b></td>
- <td id="changelog" class="menu" style="right: -100px;"><b>Maps</b></td>
+ <td id="sessions" class="menu" style="left: -100px; color: #5384ff;"><b>Sessions</b></td>
+ <td id="characters" class="menu" style="left: -50px; color: #cf7fff;"><b>Characters</b></td>
+ <td id="items" class="menu" style="right: -50px; color: #fd78a5;"><b>Items</b></td>
+ <td id="maps" class="menu" style="right: -100px; color: #ffa778;"><b>Maps</b></td>
 </tr>
 </table>
 <!-- Menu - End -->
@@ -34,39 +34,9 @@
 <div style="display: none;" id="logo1">
 </div>
     
-  <!-- Changelog -->
-<div id="changelog1" align="left" hidden style="background-color: rgba(222, 222, 222, 1); color: #1b8590; border-radius: 5px; padding: 5px; position: relative; font-family: Georgia; font-size: 9pt; width: 450px; max-height: 500px; z-index: 1; border: solid white 1px; box-shadow: rgba(0, 0, 0, .8) 0 2px 8px; margin: auto; font-size: 14pt; overflow-y: auto; top: 150px;">
-            <table align="right" style="font-size: 10pt;">
-              <tr>
-                <td>Color Key
-                  <br/><span class="bug">• Bug Fix</span>
-                  <br/><span class="addition">• Addition</span>
-                  <br/><span class="change">• Change</span>
-                  <br/><span class="newpage">• New Page</span>
-                  <br/><span class="misc">• Miscellaneous</span>
-                </td>
-              </tr>
-			  <tr>
-			  <td><a href="changelog.php" target="_blank">Previous Updates</a>
-			  </td>
-			  </tr>
-            </table>
-			
-			<div>
-              <fieldset style="border: none;" class="majorpoints">
-                <legend class="majorpointslegend"><b style="background: #d0d0d0; font-size: 14pt; text-shadow: rgba(255, 255, 255, .8) 0 1px 2px;">&nbsp; 鼷 &nbsp;</b></legend>
-                <div class="hiders" style="display:none">
-				
-				<b>2.28.72</b>
-                  <ul style="font-size: 10pt;">
-				  <li class="newpage"><b>Welcome!</b></li>
-                  </ul>
-				  
-				  </div>
-				  </fieldset>
-				  </div>
-						
-          </div>
+  <!-- Maps -->
+<div style="display: none;" id="maps1">	
+</div>
  
 
   <!-- Header - Title -->
@@ -114,8 +84,8 @@ $(".dropbtn").click(function(e) {
   e.stopPropagation();
 });
 
-$("#changelog").click(function() {
-  $("#changelog1").toggle("hidden", false);
+$("#characters").click(function() {
+  $("#characters1").toggle.css("display", "block");
 });
 
 
@@ -144,6 +114,9 @@ $(document).ready(function() {
 //logo
 	  
     $(function() {
+	$("#logo1").load("articles.php");
+	$("#characters1").load("characters.php");
+	
       $('.majorpoints').click(function() {
         $(this).find('.hiders').toggle();
       });
@@ -151,11 +124,7 @@ $(document).ready(function() {
       var textToShow = ['Wacky Tacky Tickets', 'TAC Tickets', 'Ticketing System', 'Death Raptor #4Life', 'that thing we use now', 'The Stairway to Heaven', "Captain's Log: Star Date 94855.52", "Ticket Interface", "TAC Tech Tickets", "The Dark Side of the Moon", "Krusty Burger", "Ol' Macdonald's Farm", "Hummingbird Ticketing"]
       $(document).ready(function() {
         $("#tagline").html(textToShow[Math.floor(Math.random() * textToShow.length)]);
-      });
-
-	  
-
-      $("#logo1").load("articles.php"); 
+      }); 
 
       
       // End
