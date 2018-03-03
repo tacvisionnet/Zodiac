@@ -6,7 +6,7 @@
 </tbody></table>
 
 <div hidden id="chpcs1">
-<h1>PCS</h1>			
+<h1 style="font-family: Libre Barcode 39 Extended; font-size: 48pt; text-align: center;">PCS</h1>			
 			<div>
               <fieldset style="border: none;" class="majorpoints">
                 <legend class="majorpointslegend"><b style="background: #d0d0d0; font-size: 14pt; text-shadow: rgba(255, 255, 255, .8) 0 1px 2px;">&nbsp; 鼷 &nbsp;</b></legend>
@@ -24,7 +24,7 @@
 </div>
 
 <div hidden id="chnpcs1">	
-<h1>NPCS</h1>		
+<h1 style="font-family: Libre Barcode 39 Extended; font-size: 48pt; text-align: center;">NPCS</h1>		
 			<div>
               <fieldset style="border: none;" class="majorpoints">
                 <legend class="majorpointslegend"><b style="background: #d0d0d0; font-size: 14pt; text-shadow: rgba(255, 255, 255, .8) 0 1px 2px;">&nbsp; 鼷 &nbsp;</b></legend>
@@ -45,12 +45,20 @@
 $(document).ready(function() {	
 	$('#chpcs').click(function(e) {
 		$('#chpcs1').toggle();
+		$('#chnpcs1').prop("hidden", "true");
 	
 	});
 	$('#chnpcs').click(function(e) {
 		$('#chnpcs1').toggle();
+		$('#chpcs1').prop("hidden", "true");
 	
 	});
+});
+
+$(function() {
+$('.majorpoints').click(function() {
+        $(this).find('.hiders').toggle();
+      });
 });
 
 </script>
