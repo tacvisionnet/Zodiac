@@ -1,23 +1,30 @@
 <table style="margin: auto; padding-right: 30px;">
  <tbody><tr>
- <td id="sessions" class="chmenu" style="left: -100px; color: #5384ff;"><b>PCs</b></td>
- <td id="characters" class="chmenu" style="left: -50px; color: #cf7fff;"><b>NPCs</b></td>
+ <td id="chpcs" class="chmenu" style="left: -125px; color: #cf7fff;"><b>PCs</b></td>
+ <td id="chnpcs" class="chmenu" style="left: -90px; color: #cf7fff;"><b>NPCs</b></td>
 </tr>
 </tbody></table>
 
-<div hidden id="chtrs">
-<table align="right" style="font-size: 10pt;">
-              <tr>
-                <td>Color Key
-                  <br/><span class="bug">• Bug Fix</span>
-                  <br/><span class="addition">• Addition</span>
-                  <br/><span class="change">• Change</span>
-                  <br/><span class="newpage">• New Page</span>
-                  <br/><span class="misc">• Miscellaneous</span>
-                </td>
-              </tr>
-            </table>
-			
+<div hidden id="chpcs1">
+<h1>PCS</h1>			
+			<div>
+              <fieldset style="border: none;" class="majorpoints">
+                <legend class="majorpointslegend"><b style="background: #d0d0d0; font-size: 14pt; text-shadow: rgba(255, 255, 255, .8) 0 1px 2px;">&nbsp; 鼷 &nbsp;</b></legend>
+                <div class="hiders" style="display:none">
+				
+				<b>2.28.72</b>
+                  <ul style="font-size: 10pt;">
+				  <li class="newpage"><b>Welcome!</b></li>
+                  </ul>
+				  
+				  </div>
+				  </fieldset>
+				  </div>
+
+</div>
+
+<div hidden id="chnpcs1">	
+<h1>NPCS</h1>		
 			<div>
               <fieldset style="border: none;" class="majorpoints">
                 <legend class="majorpointslegend"><b style="background: #d0d0d0; font-size: 14pt; text-shadow: rgba(255, 255, 255, .8) 0 1px 2px;">&nbsp; 鼷 &nbsp;</b></legend>
@@ -35,6 +42,11 @@
 </div>
 
 <script>
+$(document).ready(function() {	
+	$('#chpcs').click(function(e) {
+	
+	});
+});
 
 </script>
 
@@ -43,7 +55,7 @@
 	position: relative; 
 	top: 0px; 
 	border-radius: 5px; 
-	width: 110px; 
+	width: 50px; 
 	box-shadow: rgba(0, 0, 0, .2) 0 2px 8px;
 	font-family: Courier new; 
 	font-size: 12pt; 
@@ -56,7 +68,7 @@
 	margin: auto;
 	}
 
-#chtrs {
+#chpcs, #chnpcs {
     background-color: rgba(222, 222, 222, 0.17);
     color: #cf7fff;
     border-radius: 5px;
