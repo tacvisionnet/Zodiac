@@ -1,5 +1,5 @@
 <!-- Popup -->
-<div class="login">
+<div id="login">
     <h2 align="center" style="
     font-size: 24pt;
 ">授权证书</h2>
@@ -27,7 +27,7 @@
 	  </tbody></table>
 </div>
 
-<div class="fail">
+<div hidden id="fail">
     <h2 align="center" style="font-size: 24pt; color: red;">
 	拒绝访问
 	</h2>
@@ -54,7 +54,7 @@ $(document).ready(function() {
 </script>
 
 <style>
-.login {
+#login, #fail {
 position: relative;
 top: 20px;
 margin: auto;
