@@ -11,6 +11,8 @@
 	  </tr>
 	  <tr>
 	  <td align="center" colspan="2" id="logosend" style="background: white; cursor: pointer;">发送</td>
+	  </tr>
+	  <tr>
 	  <td align="center" colspan="2" id="logoclose" style="background: white; cursor: pointer;">取消</td>
 	  </tr>
 	  </table>
