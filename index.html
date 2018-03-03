@@ -85,7 +85,12 @@ $(".dropbtn").click(function(e) {
 });
 
 $("#characters").click(function() {
-  $("#characters1").toggle.css("display", "block");
+  var x = document.getElementById("charcters1");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
 });
 
 
