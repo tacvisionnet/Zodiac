@@ -12,7 +12,7 @@
 </div>
 
 
-<h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Items</h1>			
+<h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Maps</h1>			
 		
 	
 	<div id="mpselect">
@@ -76,7 +76,7 @@ $(function() {
 
 #mpcontainer {
     background-color: rgba(222, 222, 222, 0.17);
-    color: #fd6293;
+    color: #ffab78;
     border-radius: 5px;
     padding: 5px;
     position: relative;
