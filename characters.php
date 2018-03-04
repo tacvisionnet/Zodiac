@@ -9,6 +9,7 @@
 
 <!-- chimages -->
 <div hidden id="chimg1a" class="imga">
+<button class="imgclose">X</button>
 <img id="chimg1b" class="imgb" src="companylogo.png">
 </div>
 <!-- chimages - end -->
@@ -487,6 +488,14 @@ $(document).ready(function() {
 }
 
 .imgb {
+	width: 250px;
+	height: 250px;
+}
+
+.imgclose {
+	position: absolute;
+	top: 0px;
+	right: 0px;
 	width: 250px;
 	height: 250px;
 }
