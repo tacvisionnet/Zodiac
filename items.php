@@ -6,7 +6,7 @@
 	
 	<div id="itselect">
             <select id="itselecta">
-			<option>---</option>
+			<option>Item Select</option>
 			<option>Item1</option>
 			<option>Item2</option>
 			<option>Item3</option>
@@ -14,15 +14,40 @@
 			</select>
    </div>
 				  
-				  
+				<div hidden id="item1">
+				<img class="itemimg" src="rolactid.png">
+				
+				<div class="itparagraph">
+				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+     <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+				</div>
+</div>				
+
+<div hidden id="item2">
+				<img class="itemimg" src="smartwatch.png">
+				
+				<div class="itparagraph">
+				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+     <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+				</div>
+</div>				
 				  
 
 
 
 <script>
 $(function() {
-      $('.majorpoints').click(function() {
-        $(this).find('.hiders').toggle();
+      $('#itselecta').change(function() {
+        if ($(this).val() == "Item1") {
+			$("#item1").prop("hidden", "false");
+		} else if ($(this).val() != "Item1") {
+			$("#item1").prop("hidden", "true");
+		}
+		if ($(this).val() == "Item2") {
+			$("#item2").prop("hidden", "false");
+		} else if ($(this).val() != "Item2") {
+			$("#item2").prop("hidden", "true");
+		}
       });
 	  
 });
@@ -54,14 +79,18 @@ $(function() {
 	list-style: none;
 }
 
+#itselect {
+	text-align: center;
+}
+
 #itselecta {
-	    position: relative;
+	position: relative;
     top: 0px;
-    left: -25px;
+    left: -10px;
     width: auto;
     text-align: center;
     list-style: none;
-    background: #0000004f;
+    background: #00000099;
 	font-size: 14pt;
 	color: #8edc39;
 }
