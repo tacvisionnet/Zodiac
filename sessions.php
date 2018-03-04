@@ -274,7 +274,7 @@ $(document).ready(function() {
     padding: 5px;
     position: relative;
     font-family: Simsun;
-    width: 650px;
+    width: 850px;
     max-height: 500px;
     z-index: 1;
     border: solid white 1px;
