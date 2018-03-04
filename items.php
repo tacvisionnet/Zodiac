@@ -4,41 +4,17 @@
 <h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Items</h1>			
 		
 	
-	<!-- Date 1 -->
-	<div>
-              <fieldset style="border: none;" class="majorpoints">
-                <legend class="majorpointslegend"><b>&nbsp; Date 1 &nbsp;</b></legend>
-                <div class="hiders" style="display:none">
-				
-				<b>"itsion Name"</b>
-                  <ul style="font-size: 10pt;">
-				  <li class="newpage">Peter Piper picked a peck of pickled peppers.</li>
-				  <li class="bug">Waluigi something something.</li>
-				  <li class="change">Hello my baby, hello my honey. Hello my ragtime, summertime gal.</li>
-                  </ul>
+	<div id="itselect">
+            <select id="itselecta">
+			<option>---</option>
+			<option>Item1</option>
+			<option>Item2</option>
+			<option>Item3</option>
+			<option>Item4</option>
+			</select>
+   </div>
 				  
-				  </div>
-				  </fieldset>
-				  </div>
-				  <!-- Date 1 - end -->
 				  
-				  <!-- Date 2 -->
-	<div>
-              <fieldset style="border: none;" class="majorpoints">
-                <legend class="majorpointslegend"><b>&nbsp; Date 2 &nbsp;</b></legend>
-                <div class="hiders" style="display:none">
-				
-				<b>"itsion Name"</b>
-                  <ul style="font-size: 10pt;">
-				  <li class="newpage">Peter Piper picked a peck of pickled peppers.</li>
-				  <li class="bug">Waluigi something something.</li>
-				  <li class="change">Hello my baby, hello my honey. Hello my ragtime, summertime gal.</li>
-                  </ul>
-				  
-				  </div>
-				  </fieldset>
-				  </div>
-				  <!-- Date 3 - end -->
 				  
 
 
@@ -57,7 +33,7 @@ $(function() {
 
 #itcontainer {
     background-color: rgba(222, 222, 222, 0.17);
-    color: #5384ff;
+    color: #fd6293;
     border-radius: 5px;
     padding: 5px;
     position: relative;
@@ -78,7 +54,7 @@ $(function() {
 	list-style: none;
 }
 
-.majorpointslegend {
+.itselect {
 	    position: relative;
     top: 0px;
     left: -25px;
