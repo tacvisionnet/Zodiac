@@ -34,6 +34,7 @@
 <div style="display: none;" id="logo1"></div>
 <div style="display: none;" id="characters1"></div>
 <div style="display: none;" id="sessions1"></div>
+<div style="display: none;" id="items1"></div>
  
 
   <!-- Header - Title -->
@@ -99,6 +100,15 @@ $("#sessions").click(function() {
         x.style.display = "none";
     }
 });
+//items
+$("#items").click(function() {
+  var x = document.getElementById("items1");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+});
 
       function switch1(x) {
         $('#welcome1').text('Welcome to');
@@ -127,6 +137,7 @@ $(document).ready(function() {
 	$("#logo1").load("articles.php");
 	$("#characters1").load("characters.php");
 	$("#sessions1").load("sessions.php");
+	$("#items1").load("items.php");
 	
       $('.majorpoints').click(function() {
         $(this).find('.hiders').toggle();
