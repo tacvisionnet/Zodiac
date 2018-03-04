@@ -6,6 +6,13 @@
 </tbody></table>
 
 <div hidden id="chpcs1">
+
+<!-- chimages -->
+<div hidden id="chimg1a" class="pcimga">
+<img id="chimg1b" class="pcimgb" src="companylogo.png">
+</div>
+<!-- chimages - end -->
+
 <h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Player Characters</h1>			
 			
 			<div class="tabs">
@@ -56,11 +63,7 @@
 				<b style="font-size: 18pt;">Backstory</b>
                   <ul style="font-size: 10pt;">
 				  <li class="chparagraph">
-				  <img class="chimg" src="companylogo.png">
-				  <div hidden class="chimg1">
-				  
-				  <img class="chimg1a" src="companylogo.png">
-				  </div>
+				  <img id="chimg1" src="companylogo.png">
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
@@ -416,8 +419,8 @@ $(document).ready(function() {
     e.preventDefault();
   });
   
-  $('.chimg').click(function(e) {
-		$('.chimg1').toggle();
+  $('#chimg1').click(function(e) {
+		$('#chimg1a').toggle();
 	});
 });
 
@@ -465,7 +468,7 @@ $(document).ready(function() {
 	list-style: none;
 }
 
-.chimg {
+.img {
 	float: right;
 	border: 1px solid;
 	width: 50px;
@@ -473,7 +476,7 @@ $(document).ready(function() {
 	cursor: pointer;
 }
 
-.chimg1 {
+.imga {
 	position: absolute;
     background: #00000075;
     width: 99%;
@@ -483,7 +486,7 @@ $(document).ready(function() {
     padding: 100px 0px;
 }
 
-.chimg1a {
+.imgb {
 	width: 250px;
 	height: 250px;
 }
