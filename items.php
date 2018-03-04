@@ -76,7 +76,9 @@ $(function() {
 
 .itparagraph {
 	width: 600px;
-	list-style: none;
+    margin: auto;
+    list-style: none;
+    text-align: left;
 }
 
 #itselect {
