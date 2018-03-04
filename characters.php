@@ -472,17 +472,19 @@ $(document).ready(function() {
 }
 
 .chimg1 {
-	float: center;
-	border: 1px solid;
+	position: absolute;
+    background: #00000075;
+    width: 99%;
+    height: auto;
+    z-index: 3;
+    text-align: center;
+    padding: 100px 0px;
 }
 
 .chimg1a {
-	float: center;
-	border: 1px solid;
 	width: 250px;
 	height: 250px;
 }
-
 
 .tab-links:after {
   display: inline-block;
