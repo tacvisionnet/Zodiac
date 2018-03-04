@@ -8,14 +8,17 @@
 <div hidden id="chpcs1">
 <h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Player Characters</h1>			
 			
-			<table>
-			<tr>
-			<td>
-			<div>
-              <fieldset style="border: none;" class="majorpoints">
-                <legend class="majorpointslegend"><b style="background: #0000004f; font-size: 18pt; color: #8fde39;">&nbsp; Character 1 &nbsp;</b></legend>
-                <div class="hiders" style="display:none">
-				
+			<div class="tabs">
+    <ul class="tab-links">
+      <li id="character1"><a href="#character1a">Character1</a></li>
+	  <li id="character2"><a href="#character2a">Character2</a></li>
+	  <li id="character3"><a href="#character3a">Character3</a></li>
+    </ul>
+	
+	<div class="tab-content">
+	
+	<!-- Character 1 -->
+     <div id="character1a" class="tab" style="display: none;">				
 				<table style="font-size: 12pt; width: 625px;">
 				<tr>
 				<td>Race
@@ -55,19 +58,12 @@
 				  <img class="chimg" src="companylogo.png">
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
-				  
 				  </div>
-				  </fieldset>
-				  </div>
+				  <!-- Character 1 - End -->
 				  
-				  </td>
-				  <td>
 				  
-				  <div>
-              <fieldset style="border: none;" class="majorpoints">
-                <legend class="majorpointslegend"><b style="background: #0000004f; font-size: 18pt; color: #8fde39;">&nbsp; Character 2 &nbsp;</b></legend>
-                <div class="hiders" style="display:none">
-				
+				  <!-- Character 2 -->				  
+				  <div id="character1a" class="tab" style="display: none;">				
 				<table style="font-size: 12pt; width: 625px;">
 				<tr>
 				<td>Race
@@ -107,14 +103,53 @@
 				  <img class="chimg" src="companylogo.png">
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
-				  
 				  </div>
-				  </fieldset>
-				  </div>
+				  <!-- Character 2 - End -->
 				  
-				  </td>
-				  </tr>
-				  </table>
+				  <!-- Character 3 -->				  
+				  <div id="character1a" class="tab" style="display: none;">				
+				<table style="font-size: 12pt; width: 625px;">
+				<tr>
+				<td>Race
+				</td>
+				<td>Class/Level
+				</td>
+				<td>Alignment
+				</td>
+				<td>Residence
+				</td>
+				</tr>
+				<tr>
+				<td>Occupation
+				</td>
+				<td>Date of Birth
+				</td>
+				<td>Nationality
+				</td>
+				<td>Gender
+				</td>
+				</tr>
+				<tr>
+				<td>Age
+				</td>
+				<td>Weight/Height
+				</td>
+				<td>Hair
+				</td>
+				<td>Eyes
+				</td>
+				</tr>
+				</table>
+				
+				<b style="font-size: 18pt;">Backstory</b>
+                  <ul style="font-size: 10pt;">
+				  <li class="chparagraph">
+				  <img class="chimg" src="companylogo.png">
+				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
+                  </ul>
+				  </div>
+				  <!-- Character 3 - End -->
+				  
 
 </div>
 
@@ -135,6 +170,7 @@
 				  </div>
 
 </div>
+</div>
 
 <script>
 $(document).ready(function() {	
@@ -150,11 +186,18 @@ $(document).ready(function() {
 	});
 });
 
-$(function() {
-$('.majorpoints').click(function() {
-        $(this).find('.hiders').toggle();
-      });
-});
+jQuery(document).ready(function() {
+  jQuery('.tabs .tab-links a').on('click', function(e) {
+    var currentAttrValue = jQuery(this).attr('href');
+
+    // Show/Hide Tabs
+    jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+
+    // Change/remove current tab to active
+    jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+
+    e.preventDefault();
+  });
 
 </script>
 
@@ -203,5 +246,11 @@ $('.majorpoints').click(function() {
 .chimg {
 	float: right;
 	border: 1px solid;
+}
+
+.tab-links .li {
+	background: #0000004f;
+	font-size: 18pt;
+	color: #8fde39;
 }
 </style>
