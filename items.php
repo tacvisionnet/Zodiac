@@ -54,7 +54,7 @@ $(function() {
 	list-style: none;
 }
 
-.itselect {
+.itselecta {
 	    position: relative;
     top: 0px;
     left: -25px;
