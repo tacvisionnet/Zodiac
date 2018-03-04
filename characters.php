@@ -21,7 +21,7 @@
      <div id="character1a" class="tab active" style="display: block;">				
 				<table style="font-size: 12pt; width: 625px;">
 				<tr>
-				<td>Race
+				<td>Race 1
 				</td>
 				<td>Class/Level
 				</td>
@@ -63,10 +63,10 @@
 				  
 				  
 				  <!-- Character 2 -->				  
-				  <div id="character1a" class="tab" style="display: none;">				
+				  <div id="character2a" class="tab" style="display: none;">				
 				<table style="font-size: 12pt; width: 625px;">
 				<tr>
-				<td>Race
+				<td>Race 2
 				</td>
 				<td>Class/Level
 				</td>
@@ -107,10 +107,10 @@
 				  <!-- Character 2 - End -->
 				  
 				  <!-- Character 3 -->				  
-				  <div id="character1a" class="tab" style="display: none;">				
+				  <div id="character3a" class="tab" style="display: none;">				
 				<table style="font-size: 12pt; width: 625px;">
 				<tr>
-				<td>Race
+				<td>Race 3
 				</td>
 				<td>Class/Level
 				</td>
@@ -149,6 +149,50 @@
                   </ul>
 				  </div>
 				  <!-- Character 3 - End -->
+				  
+				  <!-- Character 4 -->				  
+				  <div id="character4a" class="tab" style="display: none;">				
+				<table style="font-size: 12pt; width: 625px;">
+				<tr>
+				<td>Race 4
+				</td>
+				<td>Class/Level
+				</td>
+				<td>Alignment
+				</td>
+				<td>Residence
+				</td>
+				</tr>
+				<tr>
+				<td>Occupation
+				</td>
+				<td>Date of Birth
+				</td>
+				<td>Nationality
+				</td>
+				<td>Gender
+				</td>
+				</tr>
+				<tr>
+				<td>Age
+				</td>
+				<td>Weight/Height
+				</td>
+				<td>Hair
+				</td>
+				<td>Eyes
+				</td>
+				</tr>
+				</table>
+				
+				<b style="font-size: 18pt;">Backstory</b>
+                  <ul style="font-size: 10pt;">
+				  <li class="chparagraph">
+				  <img class="chimg" src="companylogo.png">
+				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
+                  </ul>
+				  </div>
+				  <!-- Character 4 - End -->
 				  
 
 </div>
