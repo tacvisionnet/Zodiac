@@ -514,7 +514,6 @@ $(document).ready(function() {
     padding: 5px;
     position: relative;
     font-family: Simsun;
-    font-size: 9pt;
     width: 650px;
     max-height: 500px;
     z-index: 1;

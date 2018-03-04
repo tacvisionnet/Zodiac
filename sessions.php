@@ -7,10 +7,10 @@
 	<!-- Date 1 -->
 	<div>
               <fieldset style="border: none;" class="majorpoints">
-                <legend class="majorpointslegend"><b style="background: #d0d0d0; font-size: 14pt; text-shadow: rgba(255, 255, 255, .8) 0 1px 2px;">&nbsp; Date &nbsp;</b></legend>
+                <legend class="majorpointslegend"><b>&nbsp; Date 1 &nbsp;</b></legend>
                 <div class="hiders" style="display:none">
 				
-				<b>Patch 1.18.1</b>
+				<b>"Session Name"</b>
                   <ul style="font-size: 10pt;">
 				  <li class="newpage"><b>Added Citizens CC page!</b></li>
 				  <li class="bug">Corrected ACT and DTE pages asking for different jacks during DSL troubleshooting.</li>
@@ -20,6 +20,25 @@
 				  </div>
 				  </fieldset>
 				  </div>
+				  <!-- Date 1 - end -->
+				  
+				  <!-- Date 2 -->
+	<div>
+              <fieldset style="border: none;" class="majorpoints">
+                <legend class="majorpointslegend"><b>&nbsp; Date 2 &nbsp;</b></legend>
+                <div class="hiders" style="display:none">
+				
+				<b>"Session Name"</b>
+                  <ul style="font-size: 10pt;">
+				  <li class="newpage"><b>Added Citizens CC page!</b></li>
+				  <li class="bug">Corrected ACT and DTE pages asking for different jacks during DSL troubleshooting.</li>
+				  <li class="change">Updated CM lookup link on 3r.</li>
+                  </ul>
+				  
+				  </div>
+				  </fieldset>
+				  </div>
+				  <!-- Date 3 - end -->
 				  
 
 
@@ -67,6 +86,8 @@ $(function() {
     text-align: center;
     list-style: none;
     background: #0000004f;
+	font-size: 14pt;
+	color: #8edc39;
 }
 
 </style>
