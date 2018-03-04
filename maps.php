@@ -3,7 +3,7 @@
 <!-- chimages -->
 <div hidden id="mpimg1a" class="mpimga">
 <div class="mpimgclose">X</div>
-<img id="mpimg1b" class="mpimgb" src="ForbiddenCityMap.png">
+<img id="mpimg1b" class="mpimgb" href="ForbiddenCityMap.png" target="_blank" src="ForbiddenCityMap.png">
 </div>
 
 <div hidden id="mpimg2a" class="mpimga">
@@ -16,7 +16,7 @@
 		
 	
 	<div id="mpicons">
-	<table>
+	<table style="text-align: center; margin: auto;">
 	<tr>
 	<td>
 	<img id="mpimg1" class="mpimg" src="ForbiddenCityMap.png">
@@ -97,6 +97,7 @@ $(function() {
 .mpimg {
 	border: 1px solid;
     height: 250px;
+	width: 250px;
 	cursor: pointer;
 }
 
@@ -114,7 +115,7 @@ $(function() {
 }
 
 .mpimgb {
-	width: 250px;
+	width: 800px;
 }
 
 .mpimgclose {
