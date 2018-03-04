@@ -8,8 +8,8 @@
 <div hidden id="chpcs1">
 
 <!-- chimages -->
-<div hidden id="chimg1a" class="pcimga">
-<img id="chimg1b" class="pcimgb" src="companylogo.png">
+<div hidden id="chimg1a" class="imga">
+<img id="chimg1b" class="imgb" src="companylogo.png">
 </div>
 <!-- chimages - end -->
 
@@ -63,7 +63,7 @@
 				<b style="font-size: 18pt;">Backstory</b>
                   <ul style="font-size: 10pt;">
 				  <li class="chparagraph">
-				  <img id="chimg1" src="companylogo.png">
+				  <img id="chimg1" class="img" src="companylogo.png">
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
