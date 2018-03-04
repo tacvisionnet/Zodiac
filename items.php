@@ -37,18 +37,18 @@
 
 <script>
 $(function() {
-      $('#itselecta').change(function() {
-        if ($(this).val() == "Item1") {
-			$("#item1").prop("hidden", "false");
-		} else if ($(this).val() != "Item1") {
-			$("#item1").prop("hidden", "true");
-		}
-		if ($(this).val() == "Item2") {
-			$("#item2").prop("hidden", "false");
-		} else if ($(this).val() != "Item2") {
-			$("#item2").prop("hidden", "true");
-		}
-      });
+      $("#itselecta").change(function() {
+      if ($(this).val() == "Item1") {
+        ($("#item1").prop("hidden", false));
+      } else if ($(this).val() != "Item1") {
+        ($("#item1").prop("hidden", true));
+      }
+	  if ($(this).val() == "Item2") {
+        $("#item2").prop("hidden", false);
+      } else if ($(this).val() != "Item2") {
+        $("#item2").prop("hidden", true);
+      }
+    });
 	  
 });
 
