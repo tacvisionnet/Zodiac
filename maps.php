@@ -3,7 +3,7 @@
 <!-- chimages -->
 <div hidden id="mpimg1a" class="mpimga">
 <div class="mpimgclose">X</div>
-<img id="mpimg1b" class="mpimgb" href="ForbiddenCityMap.png" target="_blank" src="ForbiddenCityMap.png">
+<a href="ForbiddenCityMap.png" target="_blank"><img id="mpimg1b" class="mpimgb" src="ForbiddenCityMap.png"></a>
 </div>
 
 <div hidden id="mpimg2a" class="mpimga">
