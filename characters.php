@@ -423,6 +423,9 @@ $(document).ready(function() {
   $('#chimg1').click(function(e) {
 		$('#chimg1a').toggle();
 	});
+	 $('.imgclose').click(function(e) {
+		$('#chimg1a').prop('hidden', 'true');
+	});
 });
 
 </script>
@@ -479,7 +482,7 @@ $(document).ready(function() {
 
 .imga {
 	position: absolute;
-    background: #00000075;
+    background: #00000099;
     width: 99%;
     height: auto;
     z-index: 3;
@@ -494,10 +497,11 @@ $(document).ready(function() {
 
 .imgclose {
 	position: absolute;
-	top: 0px;
-	right: 0px;
-	width: 250px;
-	height: 250px;
+    top: 10px;
+    right: 10px;
+    color: #8fde39;
+    font-weight: bold;
+    font-size: 14pt;
 }
 
 .tab-links:after {
