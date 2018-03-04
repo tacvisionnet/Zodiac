@@ -136,7 +136,6 @@ $(function() {
 
 .itimgb {
 	width: 250px;
-	height: 250px;
 }
 
 .itimgclose {
