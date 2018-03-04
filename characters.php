@@ -9,22 +9,22 @@
 <h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Player Characters</h1>			
 			<div>
               <fieldset style="border: none;" class="majorpoints">
-                <legend class="majorpointslegend"><b style="background: #d0d0d0; font-size: 14pt; text-shadow: rgba(255, 255, 255, .8) 0 1px 2px;">&nbsp; Character 1 &nbsp;</b></legend>
+                <legend class="majorpointslegend"><b style="background: #0000004f; font-size: 14pt;">&nbsp; Character 1 &nbsp;</b></legend>
                 <div class="hiders" style="display:none">
 				
-				<table>
+				<table style="font-size: 12pt;">
 				<tr>
 				<td>Race
 				</td>
 				<td>Class/Level
 				</td>
-				<td>Alignment/Allegience
+				<td>Alignment
 				</td>
 				<td>Residence
 				</td>
 				</tr>
 				<tr>
-				<td>Starting Occupation
+				<td>Occupation
 				</td>
 				<td>Date of Birth
 				</td>
@@ -45,10 +45,11 @@
 				</tr>
 				</table>
 				
-				
-				<b>Character 1</b>
+				<b>Backstory</b>
                   <ul style="font-size: 10pt;">
-				  <li class="newpage"><b>Welcome!</b></li>
+				  <li class="chparagraph">
+				  <img class="chimg" src="companylogo.png">
+				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  
 				  </div>
@@ -132,5 +133,13 @@ $('.majorpoints').click(function() {
     font-size: 14pt;
     overflow-y: auto;
     top: 50px;
+}
+
+.chparagraph {
+	width: 350px;
+}
+
+.chimg {
+	float: right;
 }
 </style>
