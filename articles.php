@@ -1,3 +1,5 @@
+
+<div id="logo2">
 <!-- Popup -->
 <div id="login">
     <h2 align="center" style="
@@ -31,6 +33,7 @@
 	  <td align="center" id="failclose"><span style="border: 1px solid silver; cursor: pointer;padding: 2px 10px; color: #ff4444;"> 重试 </span></td>
 	  </tr>
 	  </table>
+</div>
 </div>
 
  <!-- Green -->
@@ -122,4 +125,17 @@ color: #8fde39;
  line-height: 12pt;
  font-weight: 400;
 }
+
+#logo2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: rgba(42, 1, 58, 0.8);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+	z-index: 3;
+    }
 </style>
