@@ -57,6 +57,9 @@
                   <ul style="font-size: 10pt;">
 				  <li class="chparagraph">
 				  <img class="chimg" src="companylogo.png">
+				  <div hidden class="chimg1">
+				  <img class="chimg1a" src="companylogo.png">
+				  </div>
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
@@ -467,6 +470,20 @@ $(document).ready(function() {
 .chimg {
 	float: right;
 	border: 1px solid;
+	width: 50px;
+	height: 50px;
+}
+
+.chimg1 {
+	float: center;
+	border: 1px solid;
+}
+
+.chimg1a {
+	float: center;
+	border: 1px solid;
+	width: 250px;
+	height: 250px;
 }
 
 
