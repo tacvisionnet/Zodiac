@@ -9,10 +9,50 @@
 <h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Player Characters</h1>			
 			<div>
               <fieldset style="border: none;" class="majorpoints">
-                <legend class="majorpointslegend"><b style="background: #d0d0d0; font-size: 14pt; text-shadow: rgba(255, 255, 255, .8) 0 1px 2px;">&nbsp; 鼷 &nbsp;</b></legend>
+                <legend class="majorpointslegend"><b style="background: #d0d0d0; font-size: 14pt; text-shadow: rgba(255, 255, 255, .8) 0 1px 2px;">&nbsp; Character 1 &nbsp;</b></legend>
                 <div class="hiders" style="display:none">
 				
-				<b>2.28.72</b>
+				<table>
+				<tr>
+				<td>Race
+				</td>
+				<td>Class/Level
+				</td>
+				<td>Alignment/Allegience
+				</td>
+				<td>Residence
+				</td>
+				</tr>
+				<tr>
+				<td>Starting Occupation
+				</td>
+				<td>Alignment/Allegience
+				</td>
+				<td>Date of Birth
+				</td>
+				<td>Nationality
+				</td>
+				</tr>
+				<td>
+				<td>Gender
+				</td>
+				<td>Age
+				</td>
+				<td>Weight
+				</td>
+				<td>Height
+				</td>
+				</tr>
+				<tr>
+				<td>Hair
+				</td>
+				<td>Eyes
+				</td>
+				</tr>
+				</table>
+				
+				
+				<b>Character 1</b>
                   <ul style="font-size: 10pt;">
 				  <li class="newpage"><b>Welcome!</b></li>
                   </ul>
