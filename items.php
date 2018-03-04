@@ -14,7 +14,7 @@
 			</select>
    </div>
 				  
-				<div hidden id="item1">
+				<div hidden id="item1" style="text-align: center;">
 				<img class="itemimg" src="rolactid.png">
 				
 				<div class="itparagraph">
@@ -23,7 +23,7 @@
 				</div>
 </div>				
 
-<div hidden id="item2">
+<div hidden id="item2" style="text-align: center;">
 				<img class="itemimg" src="smartwatch.png">
 				
 				<div class="itparagraph">
