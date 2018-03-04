@@ -12,9 +12,9 @@
 				
 				<b>"Session Name"</b>
                   <ul style="font-size: 10pt;">
-				  <li class="newpage"><b>Added Citizens CC page!</b></li>
-				  <li class="bug">Corrected ACT and DTE pages asking for different jacks during DSL troubleshooting.</li>
-				  <li class="change">Updated CM lookup link on 3r.</li>
+				  <li class="newpage">Peter Piper picked a peck of pickled peppers.</li>
+				  <li class="bug">Waluigi something something.</li>
+				  <li class="change">Hello my baby, hello my honey. Hello my ragtime, summertime gal.</li>
                   </ul>
 				  
 				  </div>
@@ -30,9 +30,9 @@
 				
 				<b>"Session Name"</b>
                   <ul style="font-size: 10pt;">
-				  <li class="newpage"><b>Added Citizens CC page!</b></li>
-				  <li class="bug">Corrected ACT and DTE pages asking for different jacks during DSL troubleshooting.</li>
-				  <li class="change">Updated CM lookup link on 3r.</li>
+				  <li class="newpage">Peter Piper picked a peck of pickled peppers.</li>
+				  <li class="bug">Waluigi something something.</li>
+				  <li class="change">Hello my baby, hello my honey. Hello my ragtime, summertime gal.</li>
                   </ul>
 				  
 				  </div>
@@ -63,7 +63,7 @@ $(function() {
     position: relative;
     font-family: Simsun;
     width: 850px;
-    max-height: 500px;
+    height: auto;
     z-index: 1;
     border: solid white 1px;
     box-shadow: rgba(0, 0, 0, .8) 0 2px 8px;
