@@ -20,8 +20,6 @@
 			<option>Item Select</option>
 			<option>Item1</option>
 			<option>Item2</option>
-			<option>Item3</option>
-			<option>Item4</option>
 			</select>
    </div>
 				  

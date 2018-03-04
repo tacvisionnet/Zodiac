@@ -35,6 +35,7 @@
 <div style="display: none;" id="characters1"></div>
 <div style="display: none;" id="sessions1"></div>
 <div style="display: none;" id="items1"></div>
+<div style="display: none;" id="maps1"></div>
  
 
   <!-- Header - Title -->
@@ -84,6 +85,9 @@ $(".dropbtn").click(function(e) {
 
 //characters
 $("#characters").click(function() {
+$('#sessions1').style.display = "none";
+	$('#items1').style.display = "none";
+	$('#maps1').style.display = "none";
   var x = document.getElementById("characters1");
     if (x.style.display === "none") {
         x.style.display = "block";
@@ -93,6 +97,9 @@ $("#characters").click(function() {
 });
 //sessions
 $("#sessions").click(function() {
+	$('#characters1').style.display = "none";
+	$('#items1').style.display = "none";
+	$('#maps1').style.display = "none";
   var x = document.getElementById("sessions1");
     if (x.style.display === "none") {
         x.style.display = "block";
@@ -102,7 +109,22 @@ $("#sessions").click(function() {
 });
 //items
 $("#items").click(function() {
+$('#sessions1').style.display = "none";
+	$('#characters1').style.display = "none";
+	$('#maps1').style.display = "none";
   var x = document.getElementById("items1");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+});
+//maps
+$("#maps").click(function() {
+$('#sessions1').style.display = "none";
+	$('#characters1').style.display = "none";
+	$('#items1').style.display = "none";
+  var x = document.getElementById("maps1");
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
@@ -129,6 +151,10 @@ $(document).ready(function() {
     });
     $('#logo').click(function(e) {
     $('#logo1').delay(250).fadeIn();
+	$('#sessions1').style.display = "none";
+	$('#characters1').style.display = "none";
+	$('#items1').style.display = "none";
+	$('#maps1').style.display = "none";
     });
 });
 //logo
@@ -138,6 +164,7 @@ $(document).ready(function() {
 	$("#characters1").load("characters.php");
 	$("#sessions1").load("sessions.php");
 	$("#items1").load("items.php");
+	$("#maps1").load("maps.php");
 	
       $('.majorpoints').click(function() {
         $(this).find('.hiders').toggle();
