@@ -1,5 +1,4 @@
-
-<div hidden id="sescontainer1">
+<div id="sescontainer1">
 
 <!-- chimages -->
 <div hidden id="sesimg1a" class="imga">
