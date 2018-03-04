@@ -22,7 +22,7 @@
 </div>
 <!-- chimages - end -->
 
-<h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Player Characters</h1>			
+<h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Sessions</h1>			
 			
 			<div class="tabs">
     <ul class="tab-links">
@@ -216,223 +216,6 @@
 </div>
 </div>
 
-<div hidden id="sesnpcs1">	
-
-<!-- chimages -->
-<div hidden id="sesimg5a" class="imga">
-<div class="imgclose">X</div>
-<img id="sesimg5b" class="imgb" src="companylogo.png">
-</div>
-
-<div hidden id="sesimg6a" class="imga">
-<div class="imgclose">X</div>
-<img id="sesimg6b" class="imgb" src="companylogo.png">
-</div>
-
-<div hidden id="sesimg7a" class="imga">
-<div class="imgclose">X</div>
-<img id="sesimg7b" class="imgb" src="companylogo.png">
-</div>
-
-<div hidden id="sesimg8a" class="imga">
-<div class="imgclose">X</div>
-<img id="sesimg8b" class="imgb" src="companylogo.png">
-</div>
-<!-- chimages - end -->
-
-<h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Non-Player Characters</h1>		
-			
-			<div class="tabs">
-    <ul class="tab-links">
-      <li id="npc1"><a href="#npc1a">NPC1</a></li>
-	  <li id="npc2"><a href="#npc2a">NPC2</a></li>
-	  <li id="npc3"><a href="#npc3a">NPC3</a></li>
-	  <li id="npc4"><a href="#npc4a">NPC4</a></li>
-    </ul>
-	
-	<div class="tab-content">
-	
-	<!-- NPC 1 -->
-     <div id="npc1a" class="tab" style="display: none;">				
-				<table style="font-size: 12pt; width: 625px;">
-				<tr>
-				<td>Race 1
-				</td>
-				<td>Class/Level
-				</td>
-				<td>Alignment
-				</td>
-				<td>Residence
-				</td>
-				</tr>
-				<tr>
-				<td>Occupation
-				</td>
-				<td>Date of Birth
-				</td>
-				<td>Nationality
-				</td>
-				<td>Gender
-				</td>
-				</tr>
-				<tr>
-				<td>Age
-				</td>
-				<td>Weight/Height
-				</td>
-				<td>Hair
-				</td>
-				<td>Eyes
-				</td>
-				</tr>
-				</table>
-				
-				<b style="font-size: 18pt;">Backstory</b>
-                  <ul style="font-size: 10pt;">
-				  <li class="sesparagraph">
-				  <img id="sesimg5" class="img" src="companylogo.png">
-				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
-                  </ul>
-				  </div>
-				  <!-- NPC 1 - End -->
-				  
-				  
-				  <!-- NPC 2 -->				  
-				  <div id="npc2a" class="tab" style="display: none;">				
-				<table style="font-size: 12pt; width: 625px;">
-				<tr>
-				<td>Race 2
-				</td>
-				<td>Class/Level
-				</td>
-				<td>Alignment
-				</td>
-				<td>Residence
-				</td>
-				</tr>
-				<tr>
-				<td>Occupation
-				</td>
-				<td>Date of Birth
-				</td>
-				<td>Nationality
-				</td>
-				<td>Gender
-				</td>
-				</tr>
-				<tr>
-				<td>Age
-				</td>
-				<td>Weight/Height
-				</td>
-				<td>Hair
-				</td>
-				<td>Eyes
-				</td>
-				</tr>
-				</table>
-				
-				<b style="font-size: 18pt;">Backstory</b>
-                  <ul style="font-size: 10pt;">
-				  <li class="sesparagraph">
-				  <img id="sesimg6" class="img" src="companylogo.png">
-				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
-                  </ul>
-				  </div>
-				  <!-- NPC 2 - End -->
-				  
-				  <!-- NPC 3 -->				  
-				  <div id="npc3a" class="tab" style="display: none;">				
-				<table style="font-size: 12pt; width: 625px;">
-				<tr>
-				<td>Race 3
-				</td>
-				<td>Class/Level
-				</td>
-				<td>Alignment
-				</td>
-				<td>Residence
-				</td>
-				</tr>
-				<tr>
-				<td>Occupation
-				</td>
-				<td>Date of Birth
-				</td>
-				<td>Nationality
-				</td>
-				<td>Gender
-				</td>
-				</tr>
-				<tr>
-				<td>Age
-				</td>
-				<td>Weight/Height
-				</td>
-				<td>Hair
-				</td>
-				<td>Eyes
-				</td>
-				</tr>
-				</table>
-				
-				<b style="font-size: 18pt;">Backstory</b>
-                  <ul style="font-size: 10pt;">
-				  <li class="sesparagraph">
-				  <img id="sesimg7" class="img" src="companylogo.png">
-				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
-                  </ul>
-				  </div>
-				  <!-- NPC 3 - End -->
-				  
-				  <!-- NPC 4 -->				  
-				  <div id="npc4a" class="tab" style="display: none;">				
-				<table style="font-size: 12pt; width: 625px;">
-				<tr>
-				<td>Race 4
-				</td>
-				<td>Class/Level
-				</td>
-				<td>Alignment
-				</td>
-				<td>Residence
-				</td>
-				</tr>
-				<tr>
-				<td>Occupation
-				</td>
-				<td>Date of Birth
-				</td>
-				<td>Nationality
-				</td>
-				<td>Gender
-				</td>
-				</tr>
-				<tr>
-				<td>Age
-				</td>
-				<td>Weight/Height
-				</td>
-				<td>Hair
-				</td>
-				<td>Eyes
-				</td>
-				</tr>
-				</table>
-				
-				<b style="font-size: 18pt;">Backstory</b>
-                  <ul style="font-size: 10pt;">
-				  <li class="sesparagraph">
-				  <img id="sesimg8" class="img" src="companylogo.png">
-				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
-                  </ul>
-				  </div>
-				  <!-- NPC 4 - End -->
-				  
-
-</div>
-</div>
-</div>
 
 <script>
 $(document).ready(function() {	
@@ -486,12 +269,11 @@ $(document).ready(function() {
 
 #sescontainer {
     background-color: rgba(222, 222, 222, 0.17);
-    color: #cf7fff;
+    color: #5384ff;
     border-radius: 5px;
     padding: 5px;
     position: relative;
     font-family: Simsun;
-    font-size: 9pt;
     width: 650px;
     max-height: 500px;
     z-index: 1;
