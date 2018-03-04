@@ -9,7 +9,7 @@
 
 <!-- chimages -->
 <div hidden id="chimg1a" class="imga">
-<button class="imgclose">X</button>
+<div class="imgclose">X</div>
 <img id="chimg1b" class="imgb" src="companylogo.png">
 </div>
 <!-- chimages - end -->
