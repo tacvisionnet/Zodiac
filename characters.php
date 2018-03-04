@@ -257,13 +257,17 @@ jQuery(document).ready(function() {
 }
 
 .tab-links li {
-  position: absolute;
-  top: 84px;
+  position: relative;
+  top: 0px;
   margin: 0px 0px 0px 45px;
   float: left;
   list-style: none;
   background: #0000004f;
-	font-size: 18pt;
-	color: #8fde39;
+}
+.tab-links li a {
+  text-decoration: none;
+  font-size: 18pt;
+  color: #8fde39;
+  padding: 5px;
 }
 </style>
