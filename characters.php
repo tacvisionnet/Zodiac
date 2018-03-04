@@ -403,24 +403,21 @@ $(document).ready(function() {
 	$('#chpcs').click(function(e) {
 		$('#chpcs1').toggle();
 		$('#chnpcs1').css("display", "none");
-	
 	});
 	$('#chnpcs').click(function(e) {
 		$('#chnpcs1').toggle();
 		$('#chpcs1').css("display", "none");
-	
 	});
   $('.tabs .tab-links a').on('click', function(e) {
     var currentAttrValue = $(this).attr('href');
-
-    // Show/Hide Tabs
     $('.tabs ' + currentAttrValue).show().siblings().hide();
-
-    // Change/remove current tab to active
     $(this).parent('li').addClass('active').siblings().removeClass('active');
-
     e.preventDefault();
   });
+  
+  $('#chimg').click(function(e) {
+		$('#chimg1').toggle();
+	});
 });
 
 </script>
