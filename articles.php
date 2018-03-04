@@ -64,6 +64,7 @@ $(document).ready(function() {
 
     document.getElementById('logosend').onclick = function() {
       if ($("#logopass").val() == "green") {
+		  $('#logo2').css('display', 'none');
 		  $('#login').css('display', 'none');
 		  $('#green').delay(50).fadeIn();
 	  } else if ($("#logopass").val() != "green") {
