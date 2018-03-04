@@ -26,24 +26,18 @@
 				<tr>
 				<td>Starting Occupation
 				</td>
-				<td>Alignment/Allegience
-				</td>
 				<td>Date of Birth
 				</td>
 				<td>Nationality
 				</td>
-				</tr>
-				<td>
 				<td>Gender
-				</td>
-				<td>Age
-				</td>
-				<td>Weight
-				</td>
-				<td>Height
 				</td>
 				</tr>
 				<tr>
+				<td>Age
+				</td>
+				<td>Weight/Height
+				</td>
 				<td>Hair
 				</td>
 				<td>Eyes
