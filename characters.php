@@ -5,7 +5,7 @@
 </tr>
 </tbody></table>
 
-<div hidden id="chpcs1">
+<div style="display: none;" id="chpcs1">
 <h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Player Characters</h1>			
 			
 			<div class="tabs">
@@ -199,7 +199,7 @@
 </div>
 </div>
 
-<div hidden id="chnpcs1">	
+<div style="display: none;" id="chnpcs1">	
 <h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Non-Player Characters</h1>		
 			<div>
               <fieldset style="border: none;" class="majorpoints">
@@ -282,7 +282,7 @@ $(document).ready(function() {
 }
 
 .chparagraph {
-	width: 350px;
+	width: 600px;
 	list-style: none;
 }
 
