@@ -202,20 +202,197 @@
 
 <div hidden id="chnpcs1">	
 <h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Non-Player Characters</h1>		
-			<div>
-              <fieldset style="border: none;" class="majorpoints">
-                <legend class="majorpointslegend"><b style="background: #d0d0d0; font-size: 14pt; text-shadow: rgba(255, 255, 255, .8) 0 1px 2px;">&nbsp; 鼷 &nbsp;</b></legend>
-                <div class="hiders" style="display:none">
+			
+			<div class="tabs">
+    <ul class="tab-links">
+      <li id="npc1"><a href="#npc1a">NPC1</a></li>
+	  <li id="npc2"><a href="#character2a">NPC2</a></li>
+	  <li id="npc3"><a href="#character3a">NPC3</a></li>
+	  <li id="npc4"><a href="#character4a">NPC4</a></li>
+    </ul>
+	
+	<div class="tab-content">
+	
+	<!-- NPC 1 -->
+     <div id="npc1a" class="tab" style="display: none;">				
+				<table style="font-size: 12pt; width: 625px;">
+				<tr>
+				<td>Race 1
+				</td>
+				<td>Class/Level
+				</td>
+				<td>Alignment
+				</td>
+				<td>Residence
+				</td>
+				</tr>
+				<tr>
+				<td>Occupation
+				</td>
+				<td>Date of Birth
+				</td>
+				<td>Nationality
+				</td>
+				<td>Gender
+				</td>
+				</tr>
+				<tr>
+				<td>Age
+				</td>
+				<td>Weight/Height
+				</td>
+				<td>Hair
+				</td>
+				<td>Eyes
+				</td>
+				</tr>
+				</table>
 				
-				<b>2.28.72</b>
+				<b style="font-size: 18pt;">Backstory</b>
                   <ul style="font-size: 10pt;">
-				  <li class="newpage"><b>Welcome!</b></li>
+				  <li class="chparagraph">
+				  <img class="chimg" src="companylogo.png">
+				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
+				  </div>
+				  <!-- NPC 1 - End -->
 				  
+				  
+				  <!-- NPC 2 -->				  
+				  <div id="npc2a" class="tab" style="display: none;">				
+				<table style="font-size: 12pt; width: 625px;">
+				<tr>
+				<td>Race 2
+				</td>
+				<td>Class/Level
+				</td>
+				<td>Alignment
+				</td>
+				<td>Residence
+				</td>
+				</tr>
+				<tr>
+				<td>Occupation
+				</td>
+				<td>Date of Birth
+				</td>
+				<td>Nationality
+				</td>
+				<td>Gender
+				</td>
+				</tr>
+				<tr>
+				<td>Age
+				</td>
+				<td>Weight/Height
+				</td>
+				<td>Hair
+				</td>
+				<td>Eyes
+				</td>
+				</tr>
+				</table>
+				
+				<b style="font-size: 18pt;">Backstory</b>
+                  <ul style="font-size: 10pt;">
+				  <li class="chparagraph">
+				  <img class="chimg" src="companylogo.png">
+				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
+                  </ul>
 				  </div>
-				  </fieldset>
+				  <!-- NPC 2 - End -->
+				  
+				  <!-- NPC 3 -->				  
+				  <div id="npc3a" class="tab" style="display: none;">				
+				<table style="font-size: 12pt; width: 625px;">
+				<tr>
+				<td>Race 3
+				</td>
+				<td>Class/Level
+				</td>
+				<td>Alignment
+				</td>
+				<td>Residence
+				</td>
+				</tr>
+				<tr>
+				<td>Occupation
+				</td>
+				<td>Date of Birth
+				</td>
+				<td>Nationality
+				</td>
+				<td>Gender
+				</td>
+				</tr>
+				<tr>
+				<td>Age
+				</td>
+				<td>Weight/Height
+				</td>
+				<td>Hair
+				</td>
+				<td>Eyes
+				</td>
+				</tr>
+				</table>
+				
+				<b style="font-size: 18pt;">Backstory</b>
+                  <ul style="font-size: 10pt;">
+				  <li class="chparagraph">
+				  <img class="chimg" src="companylogo.png">
+				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
+                  </ul>
 				  </div>
+				  <!-- NPC 3 - End -->
+				  
+				  <!-- NPC 4 -->				  
+				  <div id="npc4a" class="tab" style="display: none;">				
+				<table style="font-size: 12pt; width: 625px;">
+				<tr>
+				<td>Race 4
+				</td>
+				<td>Class/Level
+				</td>
+				<td>Alignment
+				</td>
+				<td>Residence
+				</td>
+				</tr>
+				<tr>
+				<td>Occupation
+				</td>
+				<td>Date of Birth
+				</td>
+				<td>Nationality
+				</td>
+				<td>Gender
+				</td>
+				</tr>
+				<tr>
+				<td>Age
+				</td>
+				<td>Weight/Height
+				</td>
+				<td>Hair
+				</td>
+				<td>Eyes
+				</td>
+				</tr>
+				</table>
+				
+				<b style="font-size: 18pt;">Backstory</b>
+                  <ul style="font-size: 10pt;">
+				  <li class="chparagraph">
+				  <img class="chimg" src="companylogo.png">
+				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
+                  </ul>
+				  </div>
+				  <!-- NPC 4 - End -->
+				  
 
+</div>
+</div>
 </div>
 
 <script>
