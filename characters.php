@@ -544,7 +544,7 @@ $(document).ready(function() {
     left: 0px;
     background: #00000099;
     width: 100%;
-    height: auto;
+    height: -webkit-fill-available;
     z-index: 3;
     text-align: center;
     padding: 100px 0px;

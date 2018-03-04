@@ -67,7 +67,9 @@ $(function() {
 	$('#itimg2').click(function(e) {
 		$('#itimg2a').toggle();
 	});
-	  
+	  $('.itimgclose').click(function(e) {
+		$(this).parent('.itimga').css('display', 'none');
+	});
 });
 
 </script>
@@ -128,7 +130,7 @@ $(function() {
     left: 0px;
     background: #00000099;
     width: 100%;
-    height: auto;
+    height: -webkit-fill-available;
     z-index: 3;
     text-align: center;
     padding: 100px 0px;
