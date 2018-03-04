@@ -9,7 +9,7 @@
   
   
  <div style="position: relative; top: 86px; min-height: 30px; padding: 5pt; text-align: center;"><img src="banner.png">
-<table style="position: absolute;top: 0px;width: 100%;font-size: 42pt;color: #8fde39;line-height: 10pt;font-family: Simsun;text-shadow: rgba(0, 0, 0, .4) 0 1px 5px;text-decoration: none;">
+<table style="position: absolute;top: 0px;width: 100%;font-size: 42pt;color: #8fde39;line-height: 10pt;font-family: Simsun;text-shadow: rgba(0, 0, 0, .8) 0 2px 5px;text-decoration: none;">
 	  <tbody><tr>
 	  <td id="switch" onmouseover="switch1(this)" onmouseout="switch2(this)" align="center" style="padding-right: 45px;">
 	  <span id="welcome1">歡迎來到</span> 
@@ -58,30 +58,6 @@
   <script src="jquery-latest.js"></script>
   <script>
 $(document).ready(function() {
-  $('.dropbtn').click(function(e) {
-    if ($(this).children('.droplist').hasClass('is-hidden')) {
-      $(".droplist").addClass('is-hidden');
-      $(this).children('.droplist').removeClass('is-hidden');
-    } else {
-      $(".droplist").addClass('is-hidden');
-    }
-  });
-  $('.dropbtn .droplist').click(function(e) {
-    e.stopPropagation();
-  });
-});
-
-/* Anything that gets to the document
-   will hide the dropdown */
-$(document).click(function() {
-  $(".droplist").addClass('is-hidden');
-});
-
-/* Clicks within the dropdown won't make
-   it past the dropdown itself */
-$(".dropbtn").click(function(e) {
-  e.stopPropagation();
-});
 
 //characters
 $("#characters").click(function() {
