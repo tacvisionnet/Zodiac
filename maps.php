@@ -3,7 +3,7 @@
 <!-- chimages -->
 <div hidden id="mpimg1a" class="mpimga">
 <div class="mpimgclose">X</div>
-<img id="mpimg1b" class="mpimgb" src="rolactid.png">
+<img id="mpimg1b" class="mpimgb" src="ForbiddenCityMap.png">
 </div>
 
 <div hidden id="mpimg2a" class="mpimga">
@@ -15,50 +15,29 @@
 <h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Maps</h1>			
 		
 	
-	<div id="mpselect">
-            <select id="mpselecta">
-			<option>Item Select</option>
-			<option>Item1</option>
-			<option>Item2</option>
-			</select>
+	<div id="mpicons">
+	<table>
+	<tr>
+	<td>
+	<img id="mpimg1" class="mpimg" src="ForbiddenCityMap.png">
+	</td>
+	</tr>
+	<tr>
+	<td>The Forbidden City
+	</td>
+	</tr>
+	</table>
+	
    </div>
 				  
-				<div hidden id="mpem1" style="text-align: center; margin: 50px 0px;">
-				<img id="mpimg1" class="mpimg" src="rolactid.png">
 				
-				<div class="mpparagraph">
-				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
-     <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
-				</div>
-</div>				
-
-<div hidden id="mpem2" style="text-align: center; margin: 50px 0px;">
-<img id="mpimg2" class="mpimg" src="smartwatch.png">
-				
-				<div class="mpparagraph">
-				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
-     <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
-				</div>
 </div>				
 				  
 
 
 
 <script>
-$(function() {
-      $("#mpselecta").change(function() {
-      if ($(this).val() == "Item1") {
-        ($("#mpem1").prop("hidden", false));
-      } else if ($(this).val() != "Item1") {
-        ($("#mpem1").prop("hidden", true));
-      }
-	  if ($(this).val() == "Item2") {
-        $("#mpem2").prop("hidden", false);
-      } else if ($(this).val() != "Item2") {
-        $("#mpem2").prop("hidden", true);
-      }
-    });
-	
+$(function() {	
 	$('#mpimg1').click(function(e) {
 		$('#mpimg1a').toggle();
 	});
