@@ -421,10 +421,10 @@ $(document).ready(function() {
   });
   
   $('#chimg1').click(function(e) {
-		$(this).parent('#chimg1a').toggle();
+		this.parent('#chimg1a').toggle();
 	});
 	 $('.imgclose').click(function(e) {
-		$(this).parent('#chimg1a').css('display', 'none');
+		this.parent('#chimg1a').css('display', 'none');
 	});
 });
 
