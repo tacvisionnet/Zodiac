@@ -1,31 +1,25 @@
-<table style="margin: auto; padding-right: 30px;">
- <tbody><tr>
- <td id="chpcs" class="chmenu" style="left: -125px; color: #cf7fff;"><b>PCs</b></td>
- <td id="chnpcs" class="chmenu" style="left: -90px; color: #cf7fff;"><b>NPCs</b></td>
-</tr>
-</tbody></table>
 
-<div hidden id="chpcs1">
+<div hidden id="sescontainer1">
 
 <!-- chimages -->
-<div hidden id="chimg1a" class="imga">
+<div hidden id="sesimg1a" class="imga">
 <div class="imgclose">X</div>
-<img id="chimg1b" class="imgb" src="companylogo.png">
+<img id="sesimg1b" class="imgb" src="companylogo.png">
 </div>
 
-<div hidden id="chimg2a" class="imga">
+<div hidden id="sesimg2a" class="imga">
 <div class="imgclose">X</div>
-<img id="chimg2b" class="imgb" src="companylogo.png">
+<img id="sesimg2b" class="imgb" src="companylogo.png">
 </div>
 
-<div hidden id="chimg3a" class="imga">
+<div hidden id="sesimg3a" class="imga">
 <div class="imgclose">X</div>
-<img id="chimg3b" class="imgb" src="companylogo.png">
+<img id="sesimg3b" class="imgb" src="companylogo.png">
 </div>
 
-<div hidden id="chimg4a" class="imga">
+<div hidden id="sesimg4a" class="imga">
 <div class="imgclose">X</div>
-<img id="chimg4b" class="imgb" src="companylogo.png">
+<img id="sesimg4b" class="imgb" src="companylogo.png">
 </div>
 <!-- chimages - end -->
 
@@ -33,16 +27,16 @@
 			
 			<div class="tabs">
     <ul class="tab-links">
-      <li id="character1"><a href="#character1a">Character1</a></li>
-	  <li id="character2"><a href="#character2a">Character2</a></li>
-	  <li id="character3"><a href="#character3a">Character3</a></li>
-	  <li id="character4"><a href="#character4a">Character4</a></li>
+      <li id="sesaracter1"><a href="#character1a">Character1</a></li>
+	  <li id="sesaracter2"><a href="#character2a">Character2</a></li>
+	  <li id="sesaracter3"><a href="#character3a">Character3</a></li>
+	  <li id="sesaracter4"><a href="#character4a">Character4</a></li>
     </ul>
 	
 	<div class="tab-content">
 	
 	<!-- Character 1 -->
-     <div id="character1a" class="tab" style="display: none;">				
+     <div id="sesaracter1a" class="tab" style="display: none;">				
 				<table style="font-size: 12pt; width: 625px;">
 				<tr>
 				<td>Race 1
@@ -78,8 +72,8 @@
 				
 				<b style="font-size: 18pt;">Backstory</b>
                   <ul style="font-size: 10pt;">
-				  <li class="chparagraph">
-				  <img id="chimg1" class="img" src="companylogo.png">
+				  <li class="sesparagraph">
+				  <img id="sesimg1" class="img" src="companylogo.png">
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
@@ -87,7 +81,7 @@
 				  
 				  
 				  <!-- Character 2 -->				  
-				  <div id="character2a" class="tab" style="display: none;">				
+				  <div id="sesaracter2a" class="tab" style="display: none;">				
 				<table style="font-size: 12pt; width: 625px;">
 				<tr>
 				<td>Race 2
@@ -123,15 +117,15 @@
 				
 				<b style="font-size: 18pt;">Backstory</b>
                   <ul style="font-size: 10pt;">
-				  <li class="chparagraph">
-				  <img id="chimg2" class="img" src="companylogo.png">
+				  <li class="sesparagraph">
+				  <img id="sesimg2" class="img" src="companylogo.png">
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
 				  <!-- Character 2 - End -->
 				  
 				  <!-- Character 3 -->				  
-				  <div id="character3a" class="tab" style="display: none;">				
+				  <div id="sesaracter3a" class="tab" style="display: none;">				
 				<table style="font-size: 12pt; width: 625px;">
 				<tr>
 				<td>Race 3
@@ -167,15 +161,15 @@
 				
 				<b style="font-size: 18pt;">Backstory</b>
                   <ul style="font-size: 10pt;">
-				  <li class="chparagraph">
-				  <img id="chimg3" class="img" src="companylogo.png">
+				  <li class="sesparagraph">
+				  <img id="sesimg3" class="img" src="companylogo.png">
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
 				  <!-- Character 3 - End -->
 				  
 				  <!-- Character 4 -->				  
-				  <div id="character4a" class="tab" style="display: none;">				
+				  <div id="sesaracter4a" class="tab" style="display: none;">				
 				<table style="font-size: 12pt; width: 625px;">
 				<tr>
 				<td>Race 4
@@ -211,8 +205,8 @@
 				
 				<b style="font-size: 18pt;">Backstory</b>
                   <ul style="font-size: 10pt;">
-				  <li class="chparagraph">
-				  <img id="chimg4" class="img" src="companylogo.png">
+				  <li class="sesparagraph">
+				  <img id="sesimg4" class="img" src="companylogo.png">
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
@@ -223,27 +217,27 @@
 </div>
 </div>
 
-<div hidden id="chnpcs1">	
+<div hidden id="sesnpcs1">	
 
 <!-- chimages -->
-<div hidden id="chimg5a" class="imga">
+<div hidden id="sesimg5a" class="imga">
 <div class="imgclose">X</div>
-<img id="chimg5b" class="imgb" src="companylogo.png">
+<img id="sesimg5b" class="imgb" src="companylogo.png">
 </div>
 
-<div hidden id="chimg6a" class="imga">
+<div hidden id="sesimg6a" class="imga">
 <div class="imgclose">X</div>
-<img id="chimg6b" class="imgb" src="companylogo.png">
+<img id="sesimg6b" class="imgb" src="companylogo.png">
 </div>
 
-<div hidden id="chimg7a" class="imga">
+<div hidden id="sesimg7a" class="imga">
 <div class="imgclose">X</div>
-<img id="chimg7b" class="imgb" src="companylogo.png">
+<img id="sesimg7b" class="imgb" src="companylogo.png">
 </div>
 
-<div hidden id="chimg8a" class="imga">
+<div hidden id="sesimg8a" class="imga">
 <div class="imgclose">X</div>
-<img id="chimg8b" class="imgb" src="companylogo.png">
+<img id="sesimg8b" class="imgb" src="companylogo.png">
 </div>
 <!-- chimages - end -->
 
@@ -296,8 +290,8 @@
 				
 				<b style="font-size: 18pt;">Backstory</b>
                   <ul style="font-size: 10pt;">
-				  <li class="chparagraph">
-				  <img id="chimg5" class="img" src="companylogo.png">
+				  <li class="sesparagraph">
+				  <img id="sesimg5" class="img" src="companylogo.png">
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
@@ -341,8 +335,8 @@
 				
 				<b style="font-size: 18pt;">Backstory</b>
                   <ul style="font-size: 10pt;">
-				  <li class="chparagraph">
-				  <img id="chimg6" class="img" src="companylogo.png">
+				  <li class="sesparagraph">
+				  <img id="sesimg6" class="img" src="companylogo.png">
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
@@ -385,8 +379,8 @@
 				
 				<b style="font-size: 18pt;">Backstory</b>
                   <ul style="font-size: 10pt;">
-				  <li class="chparagraph">
-				  <img id="chimg7" class="img" src="companylogo.png">
+				  <li class="sesparagraph">
+				  <img id="sesimg7" class="img" src="companylogo.png">
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
@@ -429,8 +423,8 @@
 				
 				<b style="font-size: 18pt;">Backstory</b>
                   <ul style="font-size: 10pt;">
-				  <li class="chparagraph">
-				  <img id="chimg8" class="img" src="companylogo.png">
+				  <li class="sesparagraph">
+				  <img id="sesimg8" class="img" src="companylogo.png">
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
@@ -490,24 +484,8 @@ $(document).ready(function() {
 </script>
 
 <style>
-.chmenu {
-	position: relative; 
-	top: 0px; 
-	border-radius: 5px; 
-	width: 50px; 
-	box-shadow: rgba(0, 0, 0, .2) 0 2px 8px;
-	font-family: Courier new; 
-	font-size: 12pt; 
-	background: linear-gradient(to bottom, #717171 0%, #ff99cc00 100%);
-	height: 25px; 
-	line-height: 18pt; 
-	z-index: 3; 
-	text-align: center; 
-	cursor: pointer;
-	margin: auto;
-	}
 
-#chpcs1, #chnpcs1 {
+#sescontainer {
     background-color: rgba(222, 222, 222, 0.17);
     color: #cf7fff;
     border-radius: 5px;
@@ -526,7 +504,7 @@ $(document).ready(function() {
     top: 50px;
 }
 
-.chparagraph {
+.sesparagraph {
 	width: 600px;
 	list-style: none;
 }

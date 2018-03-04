@@ -31,11 +31,9 @@
 <!-- Menu - End -->
 
 
-<div style="display: none;" id="logo1">
-</div>
-    
-<div style="display: none;" id="characters1">	
-</div>
+<div style="display: none;" id="logo1"></div>
+<div style="display: none;" id="characters1"></div>
+<div style="display: none;" id="sessions1"></div>
  
 
   <!-- Header - Title -->
@@ -83,6 +81,7 @@ $(".dropbtn").click(function(e) {
   e.stopPropagation();
 });
 
+//characters
 $("#characters").click(function() {
   var x = document.getElementById("characters1");
     if (x.style.display === "none") {
@@ -91,7 +90,15 @@ $("#characters").click(function() {
         x.style.display = "none";
     }
 });
-
+//sessions
+$("#sessions").click(function() {
+  var x = document.getElementById("sessions1");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+});
 
       function switch1(x) {
         $('#welcome1').text('Welcome to');
@@ -119,6 +126,7 @@ $(document).ready(function() {
     $(function() {
 	$("#logo1").load("articles.php");
 	$("#characters1").load("characters.php");
+	$("#sessions1").load("sessions.php");
 	
       $('.majorpoints').click(function() {
         $(this).find('.hiders').toggle();
