@@ -18,7 +18,7 @@
 	<div class="tab-content">
 	
 	<!-- Character 1 -->
-     <div id="character1a" class="tab" style="display: none;">				
+     <div id="character1a" class="tab active" style="display: block;">				
 				<table style="font-size: 12pt; width: 625px;">
 				<tr>
 				<td>Race
@@ -172,7 +172,6 @@
 </div>
 </div>
 
- <script src="jquery-latest.js"></script>
 <script>
 $(document).ready(function() {	
 	$('#chpcs').click(function(e) {
