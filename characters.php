@@ -424,7 +424,7 @@ $(document).ready(function() {
 		$('#chimg1a').toggle();
 	});
 	 $('.imgclose').click(function(e) {
-		$('#chimg1a').prop('hidden', 'true');
+		$('#chimg1a').css('display', 'none');
 	});
 });
 
