@@ -13,12 +13,13 @@
       <li id="character1"><a href="#character1a">Character1</a></li>
 	  <li id="character2"><a href="#character2a">Character2</a></li>
 	  <li id="character3"><a href="#character3a">Character3</a></li>
+	  <li id="character4"><a href="#character4a">Character4</a></li>
     </ul>
 	
 	<div class="tab-content">
 	
 	<!-- Character 1 -->
-     <div id="character1a" class="tab active" style="display: block;">				
+     <div id="character1a" class="tab" style="display: none;">				
 				<table style="font-size: 12pt; width: 625px;">
 				<tr>
 				<td>Race 1
