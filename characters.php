@@ -172,6 +172,7 @@
 </div>
 </div>
 
+ <script src="jquery-latest.js"></script>
 <script>
 $(document).ready(function() {	
 	$('#chpcs').click(function(e) {
@@ -259,7 +260,8 @@ jQuery(document).ready(function() {
 .tab-links li {
   position: relative;
   top: 0px;
-  margin: 0px 0px 0px 45px;
+  left: -25px;
+  margin: 0px 0px 0px 15px;
   float: left;
   list-style: none;
   background: #0000004f;
