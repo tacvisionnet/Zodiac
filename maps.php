@@ -122,7 +122,6 @@ $(function() {
 	position: absolute;
     top: 10px;
     right: 10px;
-    color: #8fde39;
     font-weight: bold;
     font-size: 14pt;
 }
