@@ -24,18 +24,18 @@
 
 <h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Sessions</h1>			
 			
-			<div class="tabs">
-    <ul class="tab-links">
-      <li id="sesaracter1"><a href="#character1a">Character1</a></li>
-	  <li id="sesaracter2"><a href="#character2a">Character2</a></li>
-	  <li id="sesaracter3"><a href="#character3a">Character3</a></li>
-	  <li id="sesaracter4"><a href="#character4a">Character4</a></li>
+			<div class="tabs2">
+    <ul class="tab2-links">
+      <li id="sesdate1"><a href="#sesdate1a">Character1</a></li>
+	  <li id="sesdate2"><a href="#sesdate2a">Character2</a></li>
+	  <li id="sesdate3"><a href="#sesdate3a">Character3</a></li>
+	  <li id="sesdate4"><a href="#sesdate4a">Character4</a></li>
     </ul>
 	
 	<div class="tab-content">
 	
-	<!-- Character 1 -->
-     <div id="sesaracter1a" class="tab" style="display: none;">				
+	<!-- Date 1 -->
+     <div id="sesdate1a" class="tab" style="display: none;">				
 				<table style="font-size: 12pt; width: 625px;">
 				<tr>
 				<td>Race 1
@@ -76,11 +76,11 @@
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
-				  <!-- Character 1 - End -->
+				  <!-- Date 1 - End -->
 				  
 				  
-				  <!-- Character 2 -->				  
-				  <div id="sesaracter2a" class="tab" style="display: none;">				
+				  <!-- Date 2 -->				  
+				  <div id="sesdate2a" class="tab" style="display: none;">				
 				<table style="font-size: 12pt; width: 625px;">
 				<tr>
 				<td>Race 2
@@ -121,10 +121,10 @@
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
-				  <!-- Character 2 - End -->
+				  <!-- Date 2 - End -->
 				  
-				  <!-- Character 3 -->				  
-				  <div id="sesaracter3a" class="tab" style="display: none;">				
+				  <!-- Date 3 -->				  
+				  <div id="sesdate3a" class="tab" style="display: none;">				
 				<table style="font-size: 12pt; width: 625px;">
 				<tr>
 				<td>Race 3
@@ -165,10 +165,10 @@
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
-				  <!-- Character 3 - End -->
+				  <!-- Date 3 - End -->
 				  
-				  <!-- Character 4 -->				  
-				  <div id="sesaracter4a" class="tab" style="display: none;">				
+				  <!-- Date 4 -->				  
+				  <div id="sesdate4a" class="tab" style="display: none;">				
 				<table style="font-size: 12pt; width: 625px;">
 				<tr>
 				<td>Race 4
@@ -209,7 +209,7 @@
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
-				  <!-- Character 4 - End -->
+				  <!-- Date 4 - End -->
 				  
 
 </div>
@@ -219,17 +219,9 @@
 
 <script>
 $(document).ready(function() {	
-	$('#chpcs').click(function(e) {
-		$('#chpcs1').toggle();
-		$('#chnpcs1').css("display", "none");
-	});
-	$('#chnpcs').click(function(e) {
-		$('#chnpcs1').toggle();
-		$('#chpcs1').css("display", "none");
-	});
-  $('.tabs .tab-links a').on('click', function(e) {
+  $('.tabs2 .tab2-links a').on('click', function(e) {
     var currentAttrValue = $(this).attr('href');
-    $('.tabs ' + currentAttrValue).show().siblings().hide();
+    $('.tabs2 ' + currentAttrValue).show().siblings().hide();
     $(this).parent('li').addClass('active').siblings().removeClass('active');
     e.preventDefault();
   });
@@ -324,22 +316,22 @@ $(document).ready(function() {
     font-size: 14pt;
 }
 
-.tab-links:after {
+.tab2-links:after {
   display: inline-block;
   clear: both;
   content: '';
 }
 
-.tab-links li {
+.tab2-links li {
   position: relative;
-  top: 0px;
-  left: -25px;
-  margin: 0px 0px 0px 15px;
-  float: left;
-  list-style: none;
-  background: #0000004f;
+    top: 0px;
+    left: -25px;
+    width: auto;
+    text-align: center;
+    list-style: none;
+    background: #0000004f;
 }
-.tab-links li a {
+.tab2-links li a {
   text-decoration: none;
   font-size: 18pt;
   color: #8fde39;
