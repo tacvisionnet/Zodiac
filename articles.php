@@ -33,6 +33,18 @@
 	  </table>
 </div>
 
+ <!-- Green -->
+<div hidden class="artcontainer" id="green">
+<h1 class="artcolor">Green</h1>
+
+<h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">"Article Title"</h1>			
+			
+     <div>								
+		"Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense."
+				  </div>
+				  </div>
+				  <!-- Green - end -->
+
 
 
 <!-- Popup - End -->
@@ -48,7 +60,10 @@ $(document).ready(function() {
 });
 
     document.getElementById('logosend').onclick = function() {
-      if ($("#logopass").val() != "one") {
+      if ($("#logopass").val() == "green") {
+		  $('#login').css('display', 'none');
+		  $('#green').delay(50).fadeIn();
+	  } else if ($("#logopass").val() != "green") {
 		  $('#login').css('display', 'none');
 		  $('#fail').delay(50).fadeIn();
 	  }
@@ -80,5 +95,31 @@ color: #8fde39;
 }
 @keyframes blinker {  
   50% { opacity: 0; }
+}
+
+.artcontainer {
+    background-color: rgba(222, 222, 222, 0.17);
+    color: #cf7fff;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    font-family: Simsun;
+    width: 650px;
+    max-height: 500px;
+    z-index: 1;
+    border: solid white 1px;
+    box-shadow: rgba(0, 0, 0, .8) 0 2px 8px;
+    margin: auto;
+    font-size: 14pt;
+    overflow-y: auto;
+    top: 50px;
+}
+
+.artcolor {
+ font-family: 'Libre Barcode 128 Text', cursive;
+ font-size: 92px;
+ text-align: center;
+ line-height: 12pt;
+ font-weight: 400;
 }
 </style>
