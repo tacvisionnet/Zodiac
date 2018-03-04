@@ -41,9 +41,9 @@
 <div class="artcontainer">
 
 
-<h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">"Article Title"</h1>			
+<h1 style="font-family: 'Unica One', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">"Article Title"</h1>			
 	<div class="artclose">X</div>		
-     <div>								
+     <div class="artparagraph">								
 		"Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense."
 				  </div>
 				  </div>
@@ -61,6 +61,7 @@ $(document).ready(function() {
     });
     $('#logo').click(function(e) {
     $('#logo1').delay(250).fadeIn();
+	$('#login').css('display', 'block');
     });
 	
 	$('.artclose').click(function(e) {
@@ -123,6 +124,11 @@ color: #8fde39;
     font-size: 14pt;
     overflow-y: auto;
     top: 50px;
+}
+
+.artparagraph {
+	width: 600px;
+	list-style: none;
 }
 
 .artcolor {
