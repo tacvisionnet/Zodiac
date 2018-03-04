@@ -12,6 +12,41 @@
 <div class="imgclose">X</div>
 <img id="chimg1b" class="imgb" src="companylogo.png">
 </div>
+
+<div hidden id="chimg2a" class="imga">
+<div class="imgclose">X</div>
+<img id="chimg2b" class="imgb" src="companylogo.png">
+</div>
+
+<div hidden id="chimg3a" class="imga">
+<div class="imgclose">X</div>
+<img id="chimg3b" class="imgb" src="companylogo.png">
+</div>
+
+<div hidden id="chimg4a" class="imga">
+<div class="imgclose">X</div>
+<img id="chimg4b" class="imgb" src="companylogo.png">
+</div>
+
+<div hidden id="chimg5a" class="imga">
+<div class="imgclose">X</div>
+<img id="chimg5b" class="imgb" src="companylogo.png">
+</div>
+
+<div hidden id="chimg6a" class="imga">
+<div class="imgclose">X</div>
+<img id="chimg6b" class="imgb" src="companylogo.png">
+</div>
+
+<div hidden id="chimg7a" class="imga">
+<div class="imgclose">X</div>
+<img id="chimg7b" class="imgb" src="companylogo.png">
+</div>
+
+<div hidden id="chimg8a" class="imga">
+<div class="imgclose">X</div>
+<img id="chimg8b" class="imgb" src="companylogo.png">
+</div>
 <!-- chimages - end -->
 
 <h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Player Characters</h1>			
@@ -109,7 +144,7 @@
 				<b style="font-size: 18pt;">Backstory</b>
                   <ul style="font-size: 10pt;">
 				  <li class="chparagraph">
-				  <img class="chimg" src="companylogo.png">
+				  <img id="chimg2" class="img" src="companylogo.png">
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
@@ -153,7 +188,7 @@
 				<b style="font-size: 18pt;">Backstory</b>
                   <ul style="font-size: 10pt;">
 				  <li class="chparagraph">
-				  <img id="chimg1" class="img" src="companylogo.png">
+				  <img id="chimg3" class="img" src="companylogo.png">
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
@@ -197,7 +232,7 @@
 				<b style="font-size: 18pt;">Backstory</b>
                   <ul style="font-size: 10pt;">
 				  <li class="chparagraph">
-				  <img id="chimg1" class="img" src="companylogo.png">
+				  <img id="chimg4" class="img" src="companylogo.png">
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
@@ -259,7 +294,7 @@
 				<b style="font-size: 18pt;">Backstory</b>
                   <ul style="font-size: 10pt;">
 				  <li class="chparagraph">
-				  <img id="chimg1" class="img" src="companylogo.png">
+				  <img id="chimg5" class="img" src="companylogo.png">
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
@@ -304,7 +339,7 @@
 				<b style="font-size: 18pt;">Backstory</b>
                   <ul style="font-size: 10pt;">
 				  <li class="chparagraph">
-				  <img id="chimg1" class="img" src="companylogo.png">
+				  <img id="chimg6" class="img" src="companylogo.png">
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
@@ -348,7 +383,7 @@
 				<b style="font-size: 18pt;">Backstory</b>
                   <ul style="font-size: 10pt;">
 				  <li class="chparagraph">
-				  <img class="chimg" src="companylogo.png">
+				  <img id="chimg7" class="img" src="companylogo.png">
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
@@ -392,7 +427,7 @@
 				<b style="font-size: 18pt;">Backstory</b>
                   <ul style="font-size: 10pt;">
 				  <li class="chparagraph">
-				  <img class="chimg" src="companylogo.png">
+				  <img id="chimg8" class="img" src="companylogo.png">
 				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
                   </ul>
 				  </div>
@@ -421,10 +456,31 @@ $(document).ready(function() {
   });
   
   $('#chimg1').click(function(e) {
-		$(this).parent('#chimg1a').toggle();
+		$('#chimg1a').toggle();
+	});
+	$('#chimg2').click(function(e) {
+		$('#chimg2a').toggle();
+	});
+	$('#chimg3').click(function(e) {
+		$('#chimg3a').toggle();
+	});
+	$('#chimg4').click(function(e) {
+		$('#chimg4a').toggle();
+	});
+	$('#chimg5').click(function(e) {
+		$('#chimg5a').toggle();
+	});
+	$('#chimg6').click(function(e) {
+		$('#chimg6a').toggle();
+	});
+	$('#chimg7').click(function(e) {
+		$('#chimg7a').toggle();
+	});
+	$('#chimg8').click(function(e) {
+		$('#chimg8a').toggle();
 	});
 	 $('.imgclose').click(function(e) {
-		$(this).parent('#chimg1a').css('display', 'none');
+		$(this).parent('.imga').css('display', 'none');
 	});
 });
 
