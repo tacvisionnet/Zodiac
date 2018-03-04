@@ -36,11 +36,9 @@
 </div>
 
  <!-- Green -->
- <div hidden class="article" id="green">
+ <div hidden class="article" id="green" style="color: #8fde39;">
  <h1 class="artcolor">G̻̘̳͑̓ͬͬ̆͑̅r̊͏̫͇̝̠͓̞̟e̝ȇ̴̫̻̝̱̣ͬͭͦ͌̅̍n̠̥͇ͣ͊͂̎ͭ̓ͩͅ</h1>
 <div class="artcontainer">
-
-
 <h1 style="font-family: 'Unica One', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">"Article Title"</h1>			
 	<div class="artclose">X</div>		
      <div class="artparagraph">								
@@ -49,6 +47,45 @@
 				  </div>
 				  </div>
 				  <!-- Green - end -->
+				  
+				   <!-- Fuchsia -->
+ <div hidden class="article" id="fuchsia" style="color: fuchsia;">
+ <h1 class="artcolor">F҉u͖̰͇͆̊́c̨̪̼̬ͤ̎̊͐ͫ̀̎ḫ̴͂̎̈si͓̗̣͇̰͋ͦa̢̱̖̪̥͐</h1>
+<div class="artcontainer">
+<h1 style="font-family: 'Unica One', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">"01000110 01110101 01110011 01101000 01101001 01100001"</h1>			
+	<div class="artclose">X</div>		
+     <div class="artparagraph">								
+		"01010111 01101000 01111001 00100000 01100001 01110010 01100101 00100000 01111001 01101111 01110101 00100000 01101000 01100101 01110010 01100101 00111111 00100000 01010111 01101000 01100001 01110100 00100000 01100001 01110010 01100101 00100000 01111001 01101111 01110101 00100000 01101100 01101111 01101111 01101011 01101001 01101110 01100111 00100000 01100110 01101111 01110010 00111111 00100000 01000111 01101111 00100000 01100001 01110111 01100001 01111001 00100001"
+				  </div>
+				  </div>
+				  </div>
+				  <!-- Fuchsia - end -->
+				  
+				  <!-- turquoise -->
+ <div hidden class="article" id="turquoise" style="color: turquoise;">
+ <h1 class="artcolor">T̩͚̦̗͕̽̆ͥu͗ͦͯ̄ͧͅr̯̥͉͕͇̩̤ͯ̀̈́̔͒̏q̸͓̭̱͇̙̂̾̔ͬu͇̮̫ͦ͢ơ̹̫̦̺̅ͧï̛͇̞̮̎ͧͩ̎̔šę̩̼̮͕͉̔͆̆̆̂ͅ</h1>
+<div class="artcontainer">
+<h1 style="font-family: 'Unica One', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">"108 101 97 118 101"</h1>			
+	<div class="artclose">X</div>		
+     <div class="artparagraph">								
+		"89 111 117 39 114 101 32 110 111 116 32 115 117 112 112 111 115 101 100 32 116 111 32 98 101 32 104 101 114 101 46 32 73 39 109 32 119 97 116 99 104 105 110 103 32 121 111 117 46 32 84 111 111 32 108 97 116 101 46"
+				  </div>
+				  </div>
+				  </div>
+				  <!-- turquoise - end -->
+				  
+				  <!-- orange -->
+ <div hidden class="article" id="orange" style="color: orange;">
+ <h1 class="artcolor">O̢͍̓̃͂̑͐ͧ͐ͅrͨͤ͌̽͋ͬ́̚ã́n͙̐̑̊ͣͥ̄́͜ǧ͔̦͉̲̥̎̂e̼̥͓̮ͬ</h1>
+<div class="artcontainer">
+<h1 style="font-family: 'Unica One', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">"TGVhdmU="</h1>			
+	<div class="artclose">X</div>		
+     <div class="artparagraph">								
+		"WW91IGRpZG4ndCBsaXN0ZW4uIEl0J3Mgc3RpbGwgaGFwcGVuaW5nLiBXaHk/IFdoeT8gV2h5Pw=="
+				  </div>
+				  </div>
+				  </div>
+				  <!-- orange - end -->
 
 
 </div>
@@ -74,7 +111,16 @@ $(document).ready(function() {
       if ($("#logopass").val() == "green") {
 		  $('#login').css('display', 'none');
 		  $('#green').delay(50).fadeIn();
-	  } else if ($("#logopass").val() != "green") {
+	  } else if ($("#logopass").val() == "fuchsia") {
+		  $('#login').css('display', 'none');
+		  $('#fucshia').delay(50).fadeIn();
+	  } else if ($("#logopass").val() == "turquoise") {
+		  $('#login').css('display', 'none');
+		  $('#turquoise').delay(50).fadeIn();
+      } else if ($("#logopass").val() == "orange") {
+		  $('#login').css('display', 'none');
+		  $('#orange').delay(50).fadeIn();
+	  } else if ($("#logopass").val() != "green" || $("#logopass").val() != "fuchsia" || $("#logopass").val() != "turquoise" || $("#logopass").val() != "orange") {
 		  $('#login').css('display', 'none');
 		  $('#fail').delay(50).fadeIn();
 	  }
@@ -110,7 +156,6 @@ color: #8fde39;
 
 .artcontainer {
     background-color: rgba(222, 222, 222, 0.17);
-    color: #cf7fff;
     border-radius: 5px;
     padding: 5px;
     position: relative;
@@ -129,6 +174,7 @@ color: #8fde39;
 .artparagraph {
 	width: 600px;
 	list-style: none;
+	margin: auto;
 }
 
 .artcolor {
@@ -137,7 +183,6 @@ color: #8fde39;
     text-align: center;
     line-height: 12pt;
     font-weight: 400;
-    color: #90ce4f;
     position: relative;
     top: 50px;
 }
