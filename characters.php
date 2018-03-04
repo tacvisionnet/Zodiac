@@ -206,9 +206,9 @@
 			<div class="tabs">
     <ul class="tab-links">
       <li id="npc1"><a href="#npc1a">NPC1</a></li>
-	  <li id="npc2"><a href="#character2a">NPC2</a></li>
-	  <li id="npc3"><a href="#character3a">NPC3</a></li>
-	  <li id="npc4"><a href="#character4a">NPC4</a></li>
+	  <li id="npc2"><a href="#npc2a">NPC2</a></li>
+	  <li id="npc3"><a href="#npc3a">NPC3</a></li>
+	  <li id="npc4"><a href="#npc4a">NPC4</a></li>
     </ul>
 	
 	<div class="tab-content">
