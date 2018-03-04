@@ -34,7 +34,6 @@
 	  </tr>
 	  </table>
 </div>
-</div>
 
  <!-- Green -->
  <div hidden id="green">
@@ -52,7 +51,7 @@
 				  <!-- Green - end -->
 
 
-
+</div>
 <!-- Popup - End -->
 
 <script>
@@ -122,11 +121,14 @@ color: #8fde39;
 }
 
 .artcolor {
- font-family: Georgia;
- font-size: 92px;
- text-align: center;
- line-height: 12pt;
- font-weight: 400;
+     font-family: courier new;
+    font-size: 28px;
+    text-align: center;
+    line-height: 12pt;
+    font-weight: 400;
+    color: #90ce4f;
+    position: relative;
+    top: 50px;
 }
 
 #logo2 {
