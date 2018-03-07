@@ -533,8 +533,8 @@ $(document).ready(function() {
 .img {
 	float: right;
 	border: 1px solid;
-	width: 50px;
-	height: 50px;
+	width: 75px;
+	height: 75px;
 	cursor: pointer;
 }
 
