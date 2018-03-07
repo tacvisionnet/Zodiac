@@ -514,7 +514,7 @@ $(document).ready(function() {
     padding: 5px;
     position: relative;
     font-family: Simsun;
-    width: 650px;
+    width: 750px;
     max-height: 500px;
     z-index: 1;
     border: solid white 1px;
@@ -526,8 +526,9 @@ $(document).ready(function() {
 }
 
 .chparagraph {
-	width: 600px;
+	width: 650px;
 	list-style: none;
+	margin: auto;
 }
 
 .img {
