@@ -43,7 +43,7 @@
 	
 	<!-- Character 1 -->
      <div id="character1a" class="tab" style="display: none;">				
-				<table style="font-size: 12pt; width: 625px;">
+				<table style="font-size: 12pt; width: 625px; margin: auto;">
 				<tr>
 				<td>Race 1
 				</td>
@@ -88,7 +88,7 @@
 				  
 				  <!-- Character 2 -->				  
 				  <div id="character2a" class="tab" style="display: none;">				
-				<table style="font-size: 12pt; width: 625px;">
+				<table style="font-size: 12pt; width: 625px; margin: auto;">
 				<tr>
 				<td>Race 2
 				</td>
@@ -132,7 +132,7 @@
 				  
 				  <!-- Character 3 -->				  
 				  <div id="character3a" class="tab" style="display: none;">				
-				<table style="font-size: 12pt; width: 625px;">
+				<table style="font-size: 12pt; width: 625px; margin: auto;">
 				<tr>
 				<td>Race 3
 				</td>
@@ -176,7 +176,7 @@
 				  
 				  <!-- Character 4 -->				  
 				  <div id="character4a" class="tab" style="display: none;">				
-				<table style="font-size: 12pt; width: 625px;">
+				<table style="font-size: 12pt; width: 625px; margin: auto;">
 				<tr>
 				<td>Race 4
 				</td>
@@ -261,7 +261,7 @@
 	
 	<!-- NPC 1 -->
      <div id="npc1a" class="tab" style="display: none;">				
-				<table style="font-size: 12pt; width: 625px;">
+				<table style="font-size: 12pt; width: 625px; margin: auto;">
 				<tr>
 				<td>Race 1
 				</td>
@@ -306,7 +306,7 @@
 				  
 				  <!-- NPC 2 -->				  
 				  <div id="npc2a" class="tab" style="display: none;">				
-				<table style="font-size: 12pt; width: 625px;">
+				<table style="font-size: 12pt; width: 625px; margin: auto;">
 				<tr>
 				<td>Race 2
 				</td>
@@ -350,7 +350,7 @@
 				  
 				  <!-- NPC 3 -->				  
 				  <div id="npc3a" class="tab" style="display: none;">				
-				<table style="font-size: 12pt; width: 625px;">
+				<table style="font-size: 12pt; width: 625px; margin: auto;">
 				<tr>
 				<td>Race 3
 				</td>
