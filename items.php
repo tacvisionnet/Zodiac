@@ -38,6 +38,7 @@
 				<div hidden id="item1" style="text-align: center; margin: 50px 0px;">
 				<img id="itimg1" class="itimg" src="rolactid.png">
 				
+				<div class="ittitle">15mg Rolactid</div>
 				<div class="itparagraph">
 				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
      <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
@@ -47,6 +48,7 @@
 <div hidden id="item2" style="text-align: center; margin: 50px 0px;">
 <img id="itimg2" class="itimg" src="smartwatch.png">
 				
+				<div class="ittitle">Smartwatch</div>
 				<div class="itparagraph">
 				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
      <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
@@ -56,6 +58,7 @@
 <div hidden id="item3" style="text-align: center; margin: 50px 0px;">
 <img id="itimg3" class="itimg" src="dice.png">
 				
+				<div class="ittitle">Lucky Dice</div>
 				<div class="itparagraph">
 				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
      <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
@@ -65,6 +68,7 @@
 <div hidden id="item4" style="text-align: center; margin: 50px 0px;">
 <img id="itimg4" class="itimg" src="usb.png">
 				
+				<div class="ittitle">USB</div>
 				<div class="itparagraph">
 				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
      <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
@@ -143,6 +147,11 @@ $(function() {
     margin: auto;
     list-style: none;
     text-align: left;
+}
+
+.ittitle {
+    text-align: center;
+	font-size: 24pt;
 }
 
 #itselect {
