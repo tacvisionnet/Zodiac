@@ -152,7 +152,7 @@ $(function() {
 .ittitle {
     text-align: center;
 	font-size: 24pt;
-	font-family: Fredericka the Great;
+	font-family: 'Fredericka the Great', cursive;
 }
 
 #itselect {
