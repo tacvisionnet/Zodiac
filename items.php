@@ -54,7 +54,7 @@
 </div>	
 
 <div hidden id="item3" style="text-align: center; margin: 50px 0px;">
-<img id="itimg2" class="itimg" src="dice.png">
+<img id="itimg3" class="itimg" src="dice.png">
 				
 				<div class="itparagraph">
 				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
@@ -63,7 +63,7 @@
 </div>
 
 <div hidden id="item4" style="text-align: center; margin: 50px 0px;">
-<img id="itimg2" class="itimg" src="usb.png">
+<img id="itimg4" class="itimg" src="usb.png">
 				
 				<div class="itparagraph">
 				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
