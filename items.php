@@ -11,6 +11,16 @@
 <img id="itimg2b" class="itimgb" src="smartwatch.png">
 </div>
 
+<div hidden id="itimg3a" class="itimga">
+<div class="itimgclose">X</div>
+<img id="itimg3b" class="itimgb" src="dice.png">
+</div>
+
+<div hidden id="itimg4a" class="itimga">
+<div class="itimgclose">X</div>
+<img id="itimg4b" class="itimgb" src="usb.png">
+</div>
+
 
 <h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Items</h1>			
 		
@@ -20,6 +30,8 @@
 			<option>Item Select</option>
 			<option>Item1</option>
 			<option>Item2</option>
+			<option>Item3</option>
+			<option>Item4</option>
 			</select>
    </div>
 				  
@@ -39,7 +51,25 @@
 				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
      <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
 				</div>
-</div>				
+</div>	
+
+<div hidden id="item3" style="text-align: center; margin: 50px 0px;">
+<img id="itimg2" class="itimg" src="dice.png">
+				
+				<div class="itparagraph">
+				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+     <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+				</div>
+</div>
+
+<div hidden id="item4" style="text-align: center; margin: 50px 0px;">
+<img id="itimg2" class="itimg" src="usb.png">
+				
+				<div class="itparagraph">
+				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+     <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+				</div>
+</div>			
 				  
 
 
@@ -57,6 +87,16 @@ $(function() {
       } else if ($(this).val() != "Item2") {
         $("#item2").prop("hidden", true);
       }
+	  if ($(this).val() == "Item3") {
+        $("#item3").prop("hidden", false);
+      } else if ($(this).val() != "Item3") {
+        $("#item3").prop("hidden", true);
+      }
+	  if ($(this).val() == "Item4") {
+        $("#item4").prop("hidden", false);
+      } else if ($(this).val() != "Item4") {
+        $("#item4").prop("hidden", true);
+      }
     });
 	
 	$('#itimg1').click(function(e) {
@@ -64,6 +104,12 @@ $(function() {
 	});
 	$('#itimg2').click(function(e) {
 		$('#itimg2a').toggle();
+	});
+	$('#itimg3').click(function(e) {
+		$('#itimg3a').toggle();
+	});
+	$('#itimg4').click(function(e) {
+		$('#itimg4a').toggle();
 	});
 	  $('.itimgclose').click(function(e) {
 		$(this).parent('.itimga').css('display', 'none');
