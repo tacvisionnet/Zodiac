@@ -7,10 +7,11 @@
 	<!-- Mission 1 -->
 	<div>
               <fieldset style="border: none;" class="majorpoints">
-                <legend class="mismajorpointslegend open"><b>&nbsp; &bull; Mission 1 &nbsp;</b></legend>
+                <legend class="mismajorpointslegend"><b class="inprogress">&nbsp; &bull; Mission 1 &nbsp;</b></legend>
                 <div class="hiders" style="display:none">
 				
-				<b>"mission Name"</b>
+				<div style="text-align: center;">Status: <span class="inprogress">In Progress</span>
+				<br/>Reward: ╞0000</div>
                   <ul style="font-size: 10pt;">
 				  <li class="newpage">Peter Piper picked a peck of pickled peppers.</li>
 				  <li class="bug">Waluigi something something.</li>
@@ -25,10 +26,11 @@
 				  <!-- Mission 2 -->
 	<div>
               <fieldset style="border: none;" class="majorpoints">
-                <legend class="mismajorpointslegend inprogress"><b>&nbsp; &bull; Mission 2 &nbsp;</b></legend>
+                <legend class="mismajorpointslegend"><b class="open">&nbsp; &bull; Mission 2 &nbsp;</b></legend>
                 <div class="hiders" style="display:none">
 				
-				<b>"mission Name"</b>
+				<div style="text-align: center;">Status: <span class="open">Open</span>
+				<br/>Reward: ╞0000</div>
                   <ul style="font-size: 10pt;">
 				  <li class="newpage">Peter Piper picked a peck of pickled peppers.</li>
 				  <li class="bug">Waluigi something something.</li>
@@ -43,10 +45,11 @@
 				  <!-- Mission 2 -->
 	<div>
               <fieldset style="border: none;" class="majorpoints">
-                <legend class="mismajorpointslegend closed"><b>&nbsp; &bull; Mission 3 &nbsp;</b></legend>
+                <legend class="mismajorpointslegend"><b class="closed">&nbsp; &bull; Mission 3 &nbsp;</b></legend>
                 <div class="hiders" style="display:none">
 				
-				<b>"mission Name"</b>
+				<div style="text-align: center;">Status: <span class="closed">Closed</span>
+				<br/>Reward: ╞0000</div>
                   <ul style="font-size: 10pt;">
 				  <li class="newpage">Peter Piper picked a peck of pickled peppers.</li>
 				  <li class="bug">Waluigi something something.</li>
@@ -116,8 +119,10 @@ $(function() {
     text-align: center;
     list-style: none;
     background: #0000004f;
-	font-size: 14pt;
+	font-size: 24pt;
 	color: #8edc39;
+	font-family: Unica One;
+    font-style: italic;
 }
 
 </style>
