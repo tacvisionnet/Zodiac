@@ -88,6 +88,7 @@ $(function() {
     background: #0000004f;
 	font-size: 14pt;
 	color: #8edc39;
+	cursor: pointer;
 }
 
 </style>

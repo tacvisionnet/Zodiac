@@ -1,4 +1,4 @@
-<table style="margin: auto; padding-right: 30px;">
+<table style="margin: auto; padding-right: 140px;">
  <tbody><tr>
  <td id="chpcs" class="chmenu" style="left: -125px; color: #cf7fff;"><b>PCs</b></td>
  <td id="chnpcs" class="chmenu" style="left: -90px; color: #cf7fff;"><b>NPCs</b></td>
