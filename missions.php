@@ -127,6 +127,7 @@ ul {
 	color: #8edc39;
 	font-family: Unica One;
     font-style: italic;
+	cursor: pointer;
 }
 
 </style>
