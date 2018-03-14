@@ -57,7 +57,7 @@ $(function() {
 
 #sescontainer {
     background-color: rgba(222, 222, 222, 0.17);
-    color: #5384ff;
+    color: #8fde39;
     border-radius: 5px;
     padding: 5px;
     position: relative;
