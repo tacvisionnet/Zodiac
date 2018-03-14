@@ -12,7 +12,7 @@
 </div>
 
 
-<h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Maps</h1>			
+<h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Settings</h1>			
 		
 	
 	<div id="mpicons">
