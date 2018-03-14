@@ -111,13 +111,13 @@ $(document).ready(function() {
       if ($("#logopass").val() == "green") {
 		  $('#login').css('display', 'none');
 		  $('#green').delay(50).fadeIn();
-	  } else if ($("#logopass").val() == "fuchsia") {
+	  } if ($("#logopass").val() == "fuchsia") {
 		  $('#login').css('display', 'none');
 		  $('#fucshia').delay(50).fadeIn();
-	  } else if ($("#logopass").val() == "turquoise") {
+	  } if ($("#logopass").val() == "turquoise") {
 		  $('#login').css('display', 'none');
 		  $('#turquoise').delay(50).fadeIn();
-      } else if ($("#logopass").val() == "orange") {
+      } if ($("#logopass").val() == "orange") {
 		  $('#login').css('display', 'none');
 		  $('#orange').delay(50).fadeIn();
 	  } else if ($("#logopass").val() != "green" || $("#logopass").val() != "fuchsia" || $("#logopass").val() != "turquoise" || $("#logopass").val() != "orange") {
@@ -169,6 +169,7 @@ color: #8fde39;
     font-size: 14pt;
     overflow-y: auto;
     top: 50px;
+	word-wrap: break-word;
 }
 
 .artparagraph {
@@ -191,7 +192,6 @@ color: #8fde39;
 	position: absolute;
     top: 10px;
     right: 10px;
-    color: #8fde39;
     font-weight: bold;
     font-size: 14pt;
 }
