@@ -110,19 +110,19 @@ $(document).ready(function() {
     document.getElementById('logosend').onclick = function() {
       if ($("#logopass").val() == "green") {
 		  $('#login').css('display', 'none');
-		  $('#green').delay(50).fadeIn();
+		  $('#green').delay(50).toggle();
 	  } if ($("#logopass").val() == "fuchsia") {
 		  $('#login').css('display', 'none');
-		  $('#fucshia').delay(50).fadeIn();
+		  $('#fucshia').fadeIn();
 	  } if ($("#logopass").val() == "turquoise") {
 		  $('#login').css('display', 'none');
-		  $('#turquoise').delay(50).fadeIn();
+		  $('#turquoise').delay(50).toggle();
       } if ($("#logopass").val() == "orange") {
 		  $('#login').css('display', 'none');
-		  $('#orange').delay(50).fadeIn();
+		  $('#orange').delay(50).toggle();
 	  } else if ($("#logopass").val() != "green" && $("#logopass").val() != "fuchsia" && $("#logopass").val() != "turquoise" && $("#logopass").val() != "orange") {
 		  $('#login').css('display', 'none');
-		  $('#fail').delay(50).fadeIn();
+		  $('#fail').delay(50).toggle();
 	  }
     }
 	
