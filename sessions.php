@@ -8,7 +8,7 @@
 	<div>
               <fieldset style="border: none;" class="majorpoints">
                 <legend class="majorpointslegend"><b>&nbsp; Date 1 &nbsp;</b></legend>
-                <div class="hiders" style="display:none">
+                <div class="hidersb" style="display:none">
 				
 				<b>"Session Name"</b>
                   <ul style="font-size: 10pt;">
@@ -26,7 +26,7 @@
 	<div>
               <fieldset style="border: none;" class="majorpoints">
                 <legend class="majorpointslegend"><b>&nbsp; Date 2 &nbsp;</b></legend>
-                <div class="hiders" style="display:none">
+                <div class="hidersb" style="display:none">
 				
 				<b>"Session Name"</b>
                   <ul style="font-size: 10pt;">
@@ -38,7 +38,7 @@
 				  </div>
 				  </fieldset>
 				  </div>
-				  <!-- Date 3 - end -->
+				  <!-- Date 2 - end -->
 				  
 
 
@@ -46,7 +46,7 @@
 <script>
 $(function() {
       $('.majorpoints').click(function() {
-        $(this).find('.hiders').toggle();
+        $(this).find('.hidersb').toggle();
       });
 	  
 });
