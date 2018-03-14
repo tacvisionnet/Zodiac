@@ -7,15 +7,15 @@
 	<!-- Mission 1 -->
 	<div>
               <fieldset style="border: none;" class="majorpoints">
-                <legend class="mismajorpointslegend"><b class="inprogress">&nbsp; &bull; Mission 1 &nbsp;</b></legend>
+                <legend class="mismajorpointslegend"><b class="inprogress">&nbsp; &bull; "Where Dey At Doe?" &nbsp;</b></legend>
                 <div class="hiders" style="display:none">
 				
 				<div style="text-align: center;">Status: <span class="inprogress">In Progress</span>
-				<br/>Reward: ╞0000</div>
+				<br/>Reward: ╞1000</div>
                   <ul style="font-size: 10pt;">
-				  <li class="newpage">Peter Piper picked a peck of pickled peppers.</li>
-				  <li class="bug">Waluigi something something.</li>
-				  <li class="change">Hello my baby, hello my honey. Hello my ragtime, summertime gal.</li>
+				  <li class="contact">Contact: Diego Ku @ Xicheng Hub</li>
+				  <li class="details">Franklin Barry has not returned from a supply cache run. Please locate Mr. Barry and report back to Diego Ku for your reward.</li>
+				  <li class="bonus">Bonus Reward: ╞500 - Locate and complete the delivery of the supply cache.</li>
                   </ul>
 				  
 				  </div>
@@ -24,7 +24,7 @@
 				  <!-- Mission 1 - end -->
 				  
 				  <!-- Mission 2 -->
-	<div>
+	<div hidden>
               <fieldset style="border: none;" class="majorpoints">
                 <legend class="mismajorpointslegend"><b class="open">&nbsp; &bull; Mission 2 &nbsp;</b></legend>
                 <div class="hiders" style="display:none">
@@ -32,9 +32,9 @@
 				<div style="text-align: center;">Status: <span class="open">Open</span>
 				<br/>Reward: ╞0000</div>
                   <ul style="font-size: 10pt;">
-				  <li class="newpage">Peter Piper picked a peck of pickled peppers.</li>
-				  <li class="bug">Waluigi something something.</li>
-				  <li class="change">Hello my baby, hello my honey. Hello my ragtime, summertime gal.</li>
+				  <li class="contact">Peter Piper picked a peck of pickled peppers.</li>
+				  <li class="details">Waluigi something something.</li>
+				  <li class="bonus">Hello my baby, hello my honey. Hello my ragtime, summertime gal.</li>
                   </ul>
 				  
 				  </div>
@@ -43,7 +43,7 @@
 				  <!-- Mission 2 - end -->
 				  
 				  <!-- Mission 2 -->
-	<div>
+	<div hidden>
               <fieldset style="border: none;" class="majorpoints">
                 <legend class="mismajorpointslegend"><b class="closed">&nbsp; &bull; Mission 3 &nbsp;</b></legend>
                 <div class="hiders" style="display:none">
@@ -51,9 +51,9 @@
 				<div style="text-align: center;">Status: <span class="closed">Closed</span>
 				<br/>Reward: ╞0000</div>
                   <ul style="font-size: 10pt;">
-				  <li class="newpage">Peter Piper picked a peck of pickled peppers.</li>
-				  <li class="bug">Waluigi something something.</li>
-				  <li class="change">Hello my baby, hello my honey. Hello my ragtime, summertime gal.</li>
+				  <li class="contact">Peter Piper picked a peck of pickled peppers.</li>
+				  <li class="details">Waluigi something something.</li>
+				  <li class="bonus">Hello my baby, hello my honey. Hello my ragtime, summertime gal.</li>
                   </ul>
 				  
 				  </div>
@@ -96,6 +96,10 @@ $(function() {
 
 .misparagraph {
 	width: 600px;
+	list-style: none;
+}
+
+ul {
 	list-style: none;
 }
 
