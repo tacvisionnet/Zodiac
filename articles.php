@@ -120,7 +120,7 @@ $(document).ready(function() {
       } if ($("#logopass").val() == "orange") {
 		  $('#login').css('display', 'none');
 		  $('#orange').delay(50).fadeIn();
-	  } else if ($("#logopass").val() != "green" || $("#logopass").val() != "fuchsia" || $("#logopass").val() != "turquoise" || $("#logopass").val() != "orange") {
+	  } else if ($("#logopass").val() != "green" && $("#logopass").val() != "fuchsia" && $("#logopass").val() != "turquoise" && $("#logopass").val() != "orange") {
 		  $('#login').css('display', 'none');
 		  $('#fail').delay(50).fadeIn();
 	  }
