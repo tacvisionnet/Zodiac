@@ -110,19 +110,19 @@ $(document).ready(function() {
     document.getElementById('logosend').onclick = function() {
       if ($("#logopass").val() == "green") {
 		  $('#login').css('display', 'none');
-		  $('#green').delay(50).prop("hidden", false);
-	  } if ($("#logopass").val() == "fuchsia") {
+		  $('#green').delay(50).fadeIn();
+	  } else if ($("#logopass").val() == "fuchsia") {
 		  $('#login').css('display', 'none');
-		  $('#fucshia').delay(50).prop("hidden", false);
-	  } if ($("#logopass").val() == "turquoise") {
+		  $('#fuchsia').delay(50).fadeIn();
+	  } else if ($("#logopass").val() == "turquoise") {
 		  $('#login').css('display', 'none');
-		  $('#turquoise').delay(50).prop("hidden", false);
-      } if ($("#logopass").val() == "orange") {
+		  $('#turquoise').delay(50).fadeIn();
+      } else if ($("#logopass").val() == "orange") {
 		  $('#login').css('display', 'none');
-		  $('#orange').delay(50).prop("hidden", false);
-	  } else if ($("#logopass").val() != "green" && $("#logopass").val() != "fuchsia" && $("#logopass").val() != "turquoise" && $("#logopass").val() != "orange") {
+		  $('#orange').delay(50).fadeIn();
+	  } else if ($("#logopass").val() != "green" || $("#logopass").val() != "fuchsia" || $("#logopass").val() != "turquoise" || $("#logopass").val() != "orange") {
 		  $('#login').css('display', 'none');
-		  $('#fail').delay(50).toggle();
+		  $('#fail').delay(50).fadeIn();
 	  }
     }
 	
