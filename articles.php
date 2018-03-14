@@ -113,7 +113,7 @@ $(document).ready(function() {
 		  $('#green').delay(50).toggle();
 	  } if ($("#logopass").val() == "fuchsia") {
 		  $('#login').css('display', 'none');
-		  $('#fucshia').fadeIn();
+		  $('#fucshia').delay(50).toggle();
 	  } if ($("#logopass").val() == "turquoise") {
 		  $('#login').css('display', 'none');
 		  $('#turquoise').delay(50).toggle();
