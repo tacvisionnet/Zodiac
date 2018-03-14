@@ -1,16 +1,16 @@
-<div id="sescontainer">
+<div id="miscontainer">
 
 
 <h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Missions</h1>			
 		
 	
-	<!-- Date 1 -->
+	<!-- Mission 1 -->
 	<div>
               <fieldset style="border: none;" class="majorpoints">
-                <legend class="majorpointslegend"><b>&nbsp; Date 1 &nbsp;</b></legend>
+                <legend class="mismajorpointslegend open"><b>&nbsp; &bull; Mission 1 &nbsp;</b></legend>
                 <div class="hiders" style="display:none">
 				
-				<b>"Session Name"</b>
+				<b>"mission Name"</b>
                   <ul style="font-size: 10pt;">
 				  <li class="newpage">Peter Piper picked a peck of pickled peppers.</li>
 				  <li class="bug">Waluigi something something.</li>
@@ -20,15 +20,15 @@
 				  </div>
 				  </fieldset>
 				  </div>
-				  <!-- Date 1 - end -->
+				  <!-- Mission 1 - end -->
 				  
-				  <!-- Date 2 -->
+				  <!-- Mission 2 -->
 	<div>
               <fieldset style="border: none;" class="majorpoints">
-                <legend class="majorpointslegend"><b>&nbsp; Date 2 &nbsp;</b></legend>
+                <legend class="mismajorpointslegend inprogress"><b>&nbsp; &bull; Mission 2 &nbsp;</b></legend>
                 <div class="hiders" style="display:none">
 				
-				<b>"Session Name"</b>
+				<b>"mission Name"</b>
                   <ul style="font-size: 10pt;">
 				  <li class="newpage">Peter Piper picked a peck of pickled peppers.</li>
 				  <li class="bug">Waluigi something something.</li>
@@ -38,7 +38,25 @@
 				  </div>
 				  </fieldset>
 				  </div>
-				  <!-- Date 3 - end -->
+				  <!-- Mission 2 - end -->
+				  
+				  <!-- Mission 2 -->
+	<div>
+              <fieldset style="border: none;" class="majorpoints">
+                <legend class="mismajorpointslegend closed"><b>&nbsp; &bull; Mission 3 &nbsp;</b></legend>
+                <div class="hiders" style="display:none">
+				
+				<b>"mission Name"</b>
+                  <ul style="font-size: 10pt;">
+				  <li class="newpage">Peter Piper picked a peck of pickled peppers.</li>
+				  <li class="bug">Waluigi something something.</li>
+				  <li class="change">Hello my baby, hello my honey. Hello my ragtime, summertime gal.</li>
+                  </ul>
+				  
+				  </div>
+				  </fieldset>
+				  </div>
+				  <!-- Mission 2 - end -->
 				  
 
 
@@ -55,14 +73,14 @@ $(function() {
 
 <style>
 
-#sescontainer {
+#miscontainer {
     background-color: rgba(222, 222, 222, 0.17);
     color: #8fde39;
     border-radius: 5px;
     padding: 5px;
     position: relative;
     font-family: Simsun;
-    width: 850px;
+    width: 600px;
     height: auto;
     z-index: 1;
     border: solid white 1px;
@@ -73,12 +91,24 @@ $(function() {
     top: 50px;
 }
 
-.sesparagraph {
+.misparagraph {
 	width: 600px;
 	list-style: none;
 }
 
-.majorpointslegend {
+.open {
+	color: #8fde39;
+}
+
+.inprogress {
+	color: orange;
+}
+
+.closed {
+	color: red;
+}
+
+.mismajorpointslegend {
 	    position: relative;
     top: 0px;
     left: -25px;
