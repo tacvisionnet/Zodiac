@@ -28,10 +28,9 @@
 	<div id="itselect">
             <select id="itselecta">
 			<option>Item Select</option>
-			<option>Item1</option>
-			<option>Item2</option>
-			<option>Item3</option>
-			<option>Item4</option>
+			<option>Smartwatch</option>
+			<option>Lucky Dice</option>
+			<option>USB</option>
 			</select>
    </div>
 				  
@@ -60,9 +59,11 @@
 				
 				<div class="ittitle">Lucky Dice</div>
 				<div class="itparagraph">
-				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
-     <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+				Gold plated six-sided dice.
+				<br/>These give the player an extra 2D6 bonus to any roll of their choice, once per day.
 				</div>
+				<div style="text-align: center;">Daily Uses:
+				<br/><input type="checkbox"></div>
 </div>
 
 <div hidden id="item4" style="text-align: center; margin: 50px 0px;">
@@ -86,19 +87,19 @@ $(function() {
       } else if ($(this).val() != "Item1") {
         ($("#item1").prop("hidden", true));
       }
-	  if ($(this).val() == "Item2") {
+	  if ($(this).val() == "Smartwatch") {
         $("#item2").prop("hidden", false);
-      } else if ($(this).val() != "Item2") {
+      } else if ($(this).val() != "Smartwatch") {
         $("#item2").prop("hidden", true);
       }
-	  if ($(this).val() == "Item3") {
+	  if ($(this).val() == "Lucky Dice") {
         $("#item3").prop("hidden", false);
-      } else if ($(this).val() != "Item3") {
+      } else if ($(this).val() != "Lucky Dice") {
         $("#item3").prop("hidden", true);
       }
-	  if ($(this).val() == "Item4") {
+	  if ($(this).val() == "USB") {
         $("#item4").prop("hidden", false);
-      } else if ($(this).val() != "Item4") {
+      } else if ($(this).val() != "USB") {
         $("#item4").prop("hidden", true);
       }
     });
