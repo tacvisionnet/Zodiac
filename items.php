@@ -39,9 +39,11 @@
 				
 				<div class="ittitle">15mg Rolactid</div>
 				<div class="itparagraph">
-				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
-     <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+				12 count 15mg Rolactid supplemental pills.
+				<br/>To be taken once every 24 hours. Player suffers 1 hour headache, -2 Wisdom & Charisma during that time. Headache goes away after 1 hour. +3 to Perception & Sense Motive as long as pill is taken that day.
 				</div>
+				<div style="text-align: center;">Pill Count:
+				<br/><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"></div>
 </div>				
 
 <div hidden id="item2" style="text-align: center; margin: 50px 0px;">
@@ -147,12 +149,12 @@ $(function() {
 	width: 600px;
     margin: auto;
     list-style: none;
-    text-align: left;
+    text-align: center;
 }
 
 .ittitle {
     text-align: center;
-	font-size: 24pt;
+	font-size: 48pt;
 	font-family: 'Fredericka the Great', cursive;
 }
 
