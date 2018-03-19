@@ -51,9 +51,10 @@
 				
 				<div class="ittitle">Smartwatch</div>
 				<div class="itparagraph">
-				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
-     <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+				Wrist watch with built-in data storage, social networking, access to news media, and weather apps that adapt and protect the wearer from rainfall, snowfall, and UV rays in the form of translucent and tinted umbrella canopy. +3 to all Knowledge after using Media apps for 1 round. -2 to Dex and Str during use.
 				</div>
+				<div style="text-align: center;">Battery Life (days):
+				<br/><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"></div>
 </div>	
 
 <div hidden id="item3" style="text-align: center; margin: 50px 0px;">
@@ -73,8 +74,7 @@
 				
 				<div class="ittitle">USB</div>
 				<div class="itparagraph">
-				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
-     <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+				Engraved USB drive. +3 to Disable Device/Computer Use/electronic-related checks, as long as USB port is present.
 				</div>
 </div>			
 				  
