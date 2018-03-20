@@ -28,9 +28,10 @@
 	<div id="itselect">
             <select id="itselecta">
 			<option>Item Select</option>
-			<option>Smartwatch</option>
-			<option>Lucky Dice</option>
-			<option>USB</option>
+			<option>Item1</option>
+			<option>Item2</option>
+			<option>Item3</option>
+			<option>Item4</option>
 			</select>
    </div>
 				  
@@ -39,11 +40,9 @@
 				
 				<div class="ittitle">15mg Rolactid</div>
 				<div class="itparagraph">
-				12 count 15mg Rolactid supplemental pills.
-				<br/>To be taken once every 24 hours. Player suffers 1 hour headache, -2 Wisdom & Charisma during that time. Headache goes away after 1 hour. +3 to Perception & Sense Motive as long as pill is taken that day.
+				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+     <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
 				</div>
-				<div style="text-align: center;">Pill Count:
-				<br/><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"></div>
 </div>				
 
 <div hidden id="item2" style="text-align: center; margin: 50px 0px;">
@@ -51,10 +50,9 @@
 				
 				<div class="ittitle">Smartwatch</div>
 				<div class="itparagraph">
-				Wrist watch with built-in data storage, social networking, access to news media, and weather apps that adapt and protect the wearer from rainfall, snowfall, and UV rays in the form of translucent and tinted umbrella canopy. +3 to all Knowledge after using Media apps for 1 round. -2 to Dex and Str during use.
+				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+     <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
 				</div>
-				<div style="text-align: center;">Battery Life (days):
-				<br/><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"></div>
 </div>	
 
 <div hidden id="item3" style="text-align: center; margin: 50px 0px;">
@@ -62,11 +60,9 @@
 				
 				<div class="ittitle">Lucky Dice</div>
 				<div class="itparagraph">
-				Gold plated six-sided dice.
-				<br/>These give the player an extra 2D6 bonus to any roll of their choice, once per day.
+				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+     <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
 				</div>
-				<div style="text-align: center;">Daily Uses:
-				<br/><input type="checkbox"></div>
 </div>
 
 <div hidden id="item4" style="text-align: center; margin: 50px 0px;">
@@ -74,7 +70,8 @@
 				
 				<div class="ittitle">USB</div>
 				<div class="itparagraph">
-				Engraved USB drive. +3 to Disable Device/Computer Use/electronic-related checks, as long as USB port is present.
+				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+     <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
 				</div>
 </div>			
 				  
@@ -89,19 +86,19 @@ $(function() {
       } else if ($(this).val() != "Item1") {
         ($("#item1").prop("hidden", true));
       }
-	  if ($(this).val() == "Smartwatch") {
+	  if ($(this).val() == "Item2") {
         $("#item2").prop("hidden", false);
-      } else if ($(this).val() != "Smartwatch") {
+      } else if ($(this).val() != "Item2") {
         $("#item2").prop("hidden", true);
       }
-	  if ($(this).val() == "Lucky Dice") {
+	  if ($(this).val() == "Item3") {
         $("#item3").prop("hidden", false);
-      } else if ($(this).val() != "Lucky Dice") {
+      } else if ($(this).val() != "Item3") {
         $("#item3").prop("hidden", true);
       }
-	  if ($(this).val() == "USB") {
+	  if ($(this).val() == "Item4") {
         $("#item4").prop("hidden", false);
-      } else if ($(this).val() != "USB") {
+      } else if ($(this).val() != "Item4") {
         $("#item4").prop("hidden", true);
       }
     });
@@ -149,12 +146,12 @@ $(function() {
 	width: 600px;
     margin: auto;
     list-style: none;
-    text-align: center;
+    text-align: left;
 }
 
 .ittitle {
     text-align: center;
-	font-size: 48pt;
+	font-size: 24pt;
 	font-family: 'Fredericka the Great', cursive;
 }
 
