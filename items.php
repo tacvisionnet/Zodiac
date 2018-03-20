@@ -21,6 +21,11 @@
 <img id="itimg4b" class="itimgb" src="usb.png">
 </div>
 
+<div hidden id="itimg5a" class="itimga">
+<div class="itimgclose">X</div>
+<img id="itimg5b" class="itimgb" src="rollershoes.png">
+</div>
+
 
 <h1 style="font-family: 'Libre Barcode 128 Text', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">Items</h1>			
 		
@@ -28,10 +33,10 @@
 	<div id="itselect">
             <select id="itselecta">
 			<option>Item Select</option>
-			<option>Item1</option>
-			<option>Item2</option>
-			<option>Item3</option>
-			<option>Item4</option>
+			<option>Smartwatch</option>
+			<option>Lucky Dice</option>
+			<option>USB</option>
+			<option>Rollershoes</option>
 			</select>
    </div>
 				  
@@ -40,9 +45,11 @@
 				
 				<div class="ittitle">15mg Rolactid</div>
 				<div class="itparagraph">
-				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
-     <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+				12 count 15mg Rolactid supplemental pills.
+				<br/>To be taken once every 24 hours. Player suffers 1 hour headache, -2 Wisdom & Charisma during that time. Headache goes away after 1 hour. +3 to Perception & Sense Motive as long as pill is taken that day.
 				</div>
+				<div style="text-align: center;">Pill Count:
+				<br/><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"></div>
 </div>				
 
 <div hidden id="item2" style="text-align: center; margin: 50px 0px;">
@@ -50,9 +57,10 @@
 				
 				<div class="ittitle">Smartwatch</div>
 				<div class="itparagraph">
-				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
-     <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+				Wrist watch with built-in data storage, social networking, access to news media, and weather apps that adapt and protect the wearer from rainfall, snowfall, and UV rays in the form of translucent and tinted umbrella canopy. +3 to all Knowledge after using Media apps for 1 round. -2 to Dex and Str during use.
 				</div>
+				<div style="text-align: center;">Battery Life (days):
+				<br/><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"></div>
 </div>	
 
 <div hidden id="item3" style="text-align: center; margin: 50px 0px;">
@@ -60,9 +68,11 @@
 				
 				<div class="ittitle">Lucky Dice</div>
 				<div class="itparagraph">
-				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
-     <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+				Gold plated six-sided dice.
+				<br/>These give the player an extra 2D6 bonus to any roll of their choice, once per day.
 				</div>
+				<div style="text-align: center;">Daily Uses:
+				<br/><input type="checkbox"></div>
 </div>
 
 <div hidden id="item4" style="text-align: center; margin: 50px 0px;">
@@ -70,9 +80,35 @@
 				
 				<div class="ittitle">USB</div>
 				<div class="itparagraph">
-				In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
-     <br/>“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+				Engraved USB drive.
+				<br/>+3 to Disable Device/Computer Use/electronic-related checks, as long as USB port is present.
 				</div>
+				<div style="text-align: center;">Codes Unlocked:
+				<br/>_______
+				<br/>_______
+				<br/>_______
+				<br/>_______
+				<br/>_______
+				<br/>_______
+				<br/>_______</div>
+</div>	
+
+<div hidden id="item5" style="text-align: center; margin: 50px 0px;">
+<img id="itimg5" class="itimg" src="rollershoes.png">
+				
+				<div class="ittitle">Rollershoes</div>
+				<div class="itparagraph">
+				Sneakers with hidden skate wheels.
+				<br/>Light-up Roller shoes that give a bonus of 10ft of movement once per combat, -2 str for one round after activation.
+				</div>
+				<div style="text-align: center;">LED Colors:
+				<br/>Pink
+				<br/>Blue
+				<br/>Green
+				<br/>Yellow
+				<br/>White
+				<br/>Red
+</div>
 </div>			
 				  
 
@@ -86,20 +122,25 @@ $(function() {
       } else if ($(this).val() != "Item1") {
         ($("#item1").prop("hidden", true));
       }
-	  if ($(this).val() == "Item2") {
+	  if ($(this).val() == "Smartwatch") {
         $("#item2").prop("hidden", false);
-      } else if ($(this).val() != "Item2") {
+      } else if ($(this).val() != "Smartwatch") {
         $("#item2").prop("hidden", true);
       }
-	  if ($(this).val() == "Item3") {
+	  if ($(this).val() == "Lucky Dice") {
         $("#item3").prop("hidden", false);
-      } else if ($(this).val() != "Item3") {
+      } else if ($(this).val() != "Lucky Dice") {
         $("#item3").prop("hidden", true);
       }
-	  if ($(this).val() == "Item4") {
+	  if ($(this).val() == "USB") {
         $("#item4").prop("hidden", false);
-      } else if ($(this).val() != "Item4") {
+      } else if ($(this).val() != "USB") {
         $("#item4").prop("hidden", true);
+      }
+	  if ($(this).val() == "Rollershoes") {
+        $("#item5").prop("hidden", false);
+      } else if ($(this).val() != "Rollershoes") {
+        $("#item5").prop("hidden", true);
       }
     });
 	
@@ -114,6 +155,9 @@ $(function() {
 	});
 	$('#itimg4').click(function(e) {
 		$('#itimg4a').toggle();
+	});
+	$('#itimg5').click(function(e) {
+		$('#itimg5a').toggle();
 	});
 	  $('.itimgclose').click(function(e) {
 		$(this).parent('.itimga').css('display', 'none');
@@ -146,12 +190,12 @@ $(function() {
 	width: 600px;
     margin: auto;
     list-style: none;
-    text-align: left;
+    text-align: center;
 }
 
 .ittitle {
     text-align: center;
-	font-size: 24pt;
+	font-size: 48pt;
 	font-family: 'Fredericka the Great', cursive;
 }
 
