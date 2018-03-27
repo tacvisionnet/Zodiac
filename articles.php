@@ -206,5 +206,6 @@ color: #8fde39;
     width: 100%;
     height: 100%;
 	z-index: 3;
+	overflow-y: auto;
     }
 </style>

@@ -33,19 +33,20 @@
 			
 			<div class="tabs">
     <ul class="tab-links">
-      <li id="character1"><a href="#character1a">Character1</a></li>
-	  <li id="character2"><a href="#character2a">Character2</a></li>
-	  <li id="character3"><a href="#character3a">Character3</a></li>
-	  <li id="character4"><a href="#character4a">Character4</a></li>
+      <li id="character1"><a href="#character1a">Willard Yijun</a></li>
+	  <li id="character2"><a href="#character2a">Qīngtíng</a></li>
+	  <li id="character3"><a href="#character3a">Gustavo Gibson</a></li>
+	  <li id="character4"><a href="#character4a">Bellamy</a></li>
     </ul>
 	
 	<div class="tab-content">
 	
 	<!-- Character 1 -->
-     <div id="character1a" class="tab" style="display: none;">				
+     <div id="character1a" class="tab" style="display: none;">	
+<h1>Willard Yijun</h1>	 
 				<table style="font-size: 12pt; width: 625px; margin: auto;">
 				<tr>
-				<td>Race 1
+				<td>Race: Human
 				</td>
 				<td>Class/Level
 				</td>
@@ -61,11 +62,11 @@
 				</td>
 				<td>Nationality
 				</td>
-				<td>Gender
+				<td>Gender: Male
 				</td>
 				</tr>
 				<tr>
-				<td>Age
+				<td>Age: 26
 				</td>
 				<td>Weight/Height
 				</td>
@@ -87,10 +88,11 @@
 				  
 				  
 				  <!-- Character 2 -->				  
-				  <div id="character2a" class="tab" style="display: none;">				
+				  <div id="character2a" class="tab" style="display: none;">
+<h1>Qīngtíng (Dragonfly)</h1>				  
 				<table style="font-size: 12pt; width: 625px; margin: auto;">
 				<tr>
-				<td>Race 2
+				<td>Race: Human
 				</td>
 				<td>Class/Level
 				</td>
@@ -110,7 +112,7 @@
 				</td>
 				</tr>
 				<tr>
-				<td>Age
+				<td>Age: 35
 				</td>
 				<td>Weight/Height
 				</td>
@@ -131,10 +133,11 @@
 				  <!-- Character 2 - End -->
 				  
 				  <!-- Character 3 -->				  
-				  <div id="character3a" class="tab" style="display: none;">				
+				  <div id="character3a" class="tab" style="display: none;">	
+<h1>Gustavo Gibson</h1>				  
 				<table style="font-size: 12pt; width: 625px; margin: auto;">
 				<tr>
-				<td>Race 3
+				<td>Race: Human
 				</td>
 				<td>Class/Level
 				</td>
@@ -154,7 +157,7 @@
 				</td>
 				</tr>
 				<tr>
-				<td>Age
+				<td>Age: 26
 				</td>
 				<td>Weight/Height
 				</td>
@@ -175,10 +178,11 @@
 				  <!-- Character 3 - End -->
 				  
 				  <!-- Character 4 -->				  
-				  <div id="character4a" class="tab" style="display: none;">				
+				  <div id="character4a" class="tab" style="display: none;">		
+<h1>Bellamy</h1>				  
 				<table style="font-size: 12pt; width: 625px; margin: auto;">
 				<tr>
-				<td>Race 4
+				<td>Race: Human
 				</td>
 				<td>Class/Level
 				</td>
@@ -190,7 +194,7 @@
 				<tr>
 				<td>Occupation
 				</td>
-				<td>Date of Birth
+				<td>Date of Birth: June 23rd, 2050
 				</td>
 				<td>Nationality
 				</td>
@@ -198,7 +202,7 @@
 				</td>
 				</tr>
 				<tr>
-				<td>Age
+				<td>Age: 28
 				</td>
 				<td>Weight/Height
 				</td>
@@ -251,10 +255,7 @@
 			
 			<div class="tabs">
     <ul class="tab-links">
-      <li id="npc1"><a href="#npc1a">NPC1</a></li>
-	  <li id="npc2"><a href="#npc2a">NPC2</a></li>
-	  <li id="npc3"><a href="#npc3a">NPC3</a></li>
-	  <li id="npc4"><a href="#npc4a">NPC4</a></li>
+      <li id="npc1"><a href="#npc1a">Diego Kù</a></li>
     </ul>
 	
 	<div class="tab-content">
@@ -263,33 +264,33 @@
      <div id="npc1a" class="tab" style="display: none;">				
 				<table style="font-size: 12pt; width: 625px; margin: auto;">
 				<tr>
-				<td>Race 1
+				<td>Race: Human
 				</td>
-				<td>Class/Level
+				<td>Class/Level: ??/15
 				</td>
-				<td>Alignment
+				<td>Alignment: Lawful Good
 				</td>
-				<td>Residence
-				</td>
-				</tr>
-				<tr>
-				<td>Occupation
-				</td>
-				<td>Date of Birth
-				</td>
-				<td>Nationality
-				</td>
-				<td>Gender
+				<td>Residence: Xicheng Hub
 				</td>
 				</tr>
 				<tr>
-				<td>Age
+				<td>Occupation: Hub Leader
 				</td>
-				<td>Weight/Height
+				<td>Date of Birth: 2034
 				</td>
-				<td>Hair
+				<td>Nationality: Chinese
 				</td>
-				<td>Eyes
+				<td>Gender: Male
+				</td>
+				</tr>
+				<tr>
+				<td>Age: early 40s
+				</td>
+				<td>Body: Slim/Athletic Build
+				</td>
+				<td>Hair: Black
+				</td>
+				<td>Eyes: Black
 				</td>
 				</tr>
 				</table>
@@ -339,11 +340,11 @@
 				</tr>
 				</table>
 				
-				<b style="font-size: 18pt;">Backstory</b>
+				<b style="font-size: 18pt;">Summary</b>
                   <ul style="font-size: 10pt;">
 				  <li class="chparagraph">
 				  <img id="chimg6" class="img" src="companylogo.png">
-				  <b>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</b></li>
+				  <b>A man known as “The Silent”. (This is mostly because when a problem arises in the district, he prefers action over conversation.)</b></li>
                   </ul>
 				  </div>
 				  <!-- NPC 2 - End -->
