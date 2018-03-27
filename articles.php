@@ -51,6 +51,7 @@
 				   <!-- Fuchsia -->
  <div hidden class="article" id="fuchsia" style="color: fuchsia;">
  <h1 class="artcolor">F҉u͖̰͇͆̊́c̨̪̼̬ͤ̎̊͐ͫ̀̎ḫ̴͂̎̈si͓̗̣͇̰͋ͦa̢̱̖̪̥͐</h1>
+ <div class="artclose">X</div>
 <div id="fuchsia1">
 				  </div>
 				  <!-- Fuchsia - end -->
