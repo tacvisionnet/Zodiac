@@ -1,7 +1,7 @@
 <div class="artcontainer">
-<h1 style="font-family: 'Unica One', cursive; font-size: 92px; text-align: center; line-height: 50pt; font-weight: 400;">"The Rise of Rolatide Incorporated"</h1>					
-     <div class="artparagraph" style="text-align: justify; background: linear-gradient(to bottom, #8880 80%, #7ec1677a 95%, #8880 100%);">								
-
+<h1 style="font-family: 'Unica One', cursive; font-size: 92px; text-align: center; line-height: 50pt; font-weight: 400;">"The Rise of Rolatide Incorporated"</h1>
+<div class="artparagraph" style="text-align: justify; background: linear-gradient(to bottom, #8880 80%, #7ec1677a 95%, #8880 100%);">								
+<div style="background: -webkit-linear-gradient(#eee, #333); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
 &nbsp; &nbsp;Rolatide Inc was founded in 2020 in the United States, and started out as a basic pharmaceutical distributor. It wasn’t long before its founder, Everluce Pinnocle, reached out to colleges around the country about a breakthrough in treating memory loss in Alzheimer’s patients. Pinnocle claimed that he could use technology to stimulate the parietal, frontal, and temporal lobe to reduce and even reverse damage to the brain. None of the colleges wanted to take on the project without hefty financial backing, however, and Pinnocle was forced to put the project away for a few years while he searched for investors.
 <br/><br/>
 &nbsp; &nbsp;In 2022, Rolatide eventually struck gold overseas. Ji Xingping, the president of China at the time, had gotten wind of Everluce’s claim to “cure” Alzheimer’s and offered him the finances needed to begin work immediately, along with access to the top healthcare facilities in Beijing. The only catch was that Rolatide would have to move its headquarters overseas, and that Xingping was to receive first treatment. It was around that time that the public became aware of the president’s diagnoses.
@@ -24,6 +24,6 @@ Generation R is Ready to expose the truth.
 Stay tuned.
 <br/>
 -S.L.
-
+</div>
 	 </div>
 	 </div>
