@@ -51,13 +51,7 @@
 				   <!-- Fuchsia -->
  <div hidden class="article" id="fuchsia" style="color: fuchsia;">
  <h1 class="artcolor">F҉u͖̰͇͆̊́c̨̪̼̬ͤ̎̊͐ͫ̀̎ḫ̴͂̎̈si͓̗̣͇̰͋ͦa̢̱̖̪̥͐</h1>
-<div class="artcontainer">
-<h1 style="font-family: 'Unica One', cursive; font-size: 92px; text-align: center; line-height: 12pt; font-weight: 400;">"01000110 01110101 01110011 01101000 01101001 01100001"</h1>			
-	<div class="artclose">X</div>		
-     <div class="artparagraph">								
-		"01010111 01101000 01111001 00100000 01100001 01110010 01100101 00100000 01111001 01101111 01110101 00100000 01101000 01100101 01110010 01100101 00111111 00100000 01010111 01101000 01100001 01110100 00100000 01100001 01110010 01100101 00100000 01111001 01101111 01110101 00100000 01101100 01101111 01101111 01101011 01101001 01101110 01100111 00100000 01100110 01101111 01110010 00111111 00100000 01000111 01101111 00100000 01100001 01110111 01100001 01111001 00100001"
-				  </div>
-				  </div>
+<div id="fuchsia1">
 				  </div>
 				  <!-- Fuchsia - end -->
 				  
@@ -125,6 +119,10 @@ $(document).ready(function() {
 		  $('#fail').delay(50).fadeIn();
 	  }
     }
+	
+	$(function() {
+	$("#fuchsia1").load("fuchsia.php");
+	});
 	
 	document.getElementById('failclose').onclick = function() {
 		  $('#fail').css('display', 'none');
