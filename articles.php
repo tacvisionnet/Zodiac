@@ -154,7 +154,7 @@ color: #8fde39;
 }
 
 .artcontainer {
-    background-color: rgba(222, 222, 222, 0.17);
+    background-color: rgba(222, 222, 222, 0.3);
     border-radius: 5px;
     padding: 5px;
     position: relative;
